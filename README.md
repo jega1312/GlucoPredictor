@@ -4,7 +4,6 @@
 
 ## 📷 Screenshots
 ![Login Page](assets/login.png)
-![Registration Page](assets/registration.png)
 ![Dashboard Homepage](assets/home-en.png)
 ![Diabetes Risk Assessment Form Page](assets/form-en.png)
 ![Diabetes Risk Assessment Result Page](assets/result.png)
@@ -27,7 +26,7 @@
   - Receive health tips based on risk levels and other factors.
   - AI-generated bonus tips for healthier living.
 
-**Multilingual Support**:
+**Bilingual Support**:
   - Supports English and Malay languages.
 
 **Responsive Design**:
@@ -35,7 +34,7 @@
 
 ## ⚙️ Technologies Used
 
-  - **Frontend**: HTML, CSS, Bootstrap, JavaScript
+  - **Frontend**: HTML, CSS, Bootstrap & JavaScript
   - **Backend**: PHP
   - **Machine Learning**: Python (XGBoost)
   - **Database**: MySQL (phpMyAdmin)
@@ -48,7 +47,8 @@
      - Admin users can manage other users.
    
 2. **Data Input**:
-     - Users input information such as age, weight, glucose levels, insulin usage, and symptoms.
+     - Users input information such as age, gender, number of pregnancies, weight, height, family history, high blood pressure diagnosis, activity level, sugar consumption & symptoms.
+     - Users input information glucose levels, insulin intake & weight on the tracking pages.
    
 3. **Risk Calculation**:
      - Risk is calculated using predefined rules via JavaScript and an AI model (`predict.py`).
@@ -56,8 +56,8 @@
 4. **Health Tips**:
      - Based on the risk level, users receive health tips on the `tips.php` page.
    
-5. **History Tracking**:
-     - Users can view their risk history through the `history.php` page.
+5. **Risk Score History Tracking**:
+     - Users can view their risk score history through the `history.php` page.
 
 ## 🛠️ Installation
 
