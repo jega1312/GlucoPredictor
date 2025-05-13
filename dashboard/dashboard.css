@@ -1,0 +1,1188 @@
+/* Page styles for GlucoPredictor Dashboard Homepage, History, Health Tips
+Glucose, Weight & Insulin Tracking, Edit Profile */
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #004aad;
+  --panel-color: #fff;
+  --text-color: #000;
+  --black-light-color: #707070;
+  --border-color: #e6e5e5;
+  --toggle-color: #ddd;
+  --box1-color: #005acf;
+  --box2-color: #ffe6ac;
+  --box3-color: #e7d1fc;
+  --title-icon-color: #fff;
+  --tran-05: all 0.5s ease;
+  --tran-03: all 0.3s ease;
+  --tran-03: all 0.2s ease;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--panel-color);
+}
+
+/* Dark Mode */
+body.dark {
+  --primary-color: #004aad;
+  --panel-color: #242526;
+  --text-color: #ccc;
+  --black-light-color: #ccc;
+  --border-color: #4d4c4c;
+  --toggle-color: #fff;
+  --box1-color: #3a3b3c;
+  --box2-color: #3a3b3c;
+  --box3-color: #3a3b3c;
+  --title-icon-color: #ccc;
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select {
+  background-color: #333; /* Dark background */
+  color: #ccc; /* Light text color */
+  border: 1px solid #555; /* Slightly visible border */
+}
+
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+  color: #aaa; /* Light gray placeholder */
+}
+
+body.dark .dropdown-menu {
+  background-color: #242526; /* Dark background */
+  color: #ccc; /* Light text */
+  border: 1px solid #4d4c4c;
+}
+
+body.dark .dropdown-menu a {
+  color: #ccc; /* Light text for links */
+}
+
+/* Dark Mode - Home */
+body.dark .box2,
+body.dark .box3,
+body.dark .card {
+  background-color: var(--panel-color);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+body.dark .box2 h2,
+body.dark .box3 h3 {
+  color: var(--primary-color);
+}
+
+body.dark .box2 p,
+body.dark .box3 p,
+body.dark .card p {
+  color: var(--text-color);
+}
+
+body.dark .box4 {
+  background-color: var(--panel-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+body.dark .section-heading {
+  color: var(--primary-color);
+}
+
+body.dark .symptom-card {
+  background: var(--primary-color);
+}
+
+body.dark .symptom-card h3,
+body.dark .symptom-card p {
+  color: var(--text-color);
+}
+
+/* Dark Mode - Edit Profile Page */
+body.dark .form-group label {
+  color: var(--text-color);
+}
+
+/* Dark Mode - History Page */
+body.dark #historyBody {
+  color: var(--text-color);
+}
+
+body.dark #historyBody:hover {
+  color: black;
+}
+
+body.dark #historyChart {
+  background: var(--panel-color);
+  border: 1px solid var(--border-color);
+}
+
+/* Dark Mode - Glucose, Weight & Insulin Tracking Pages */
+body.dark #entriesTableBody {
+  color: var(--text-color);
+}
+
+body.dark #entriesTableBody:hover {
+  color: black;
+}
+
+body.dark .modal-content {
+  background: var(--panel-color);
+  color: var(--text-color);
+}
+
+body.dark #glucoseChart,
+body.dark #weightChart,
+body.dark #insulinChart {
+  background: var(--panel-color);
+  border: 1px solid var(--border-color);
+}
+
+/* Dark Mode - Health Tips */
+body.dark .result-container {
+  background-color: var(--primary-color); /* Dark background */
+}
+
+body.dark .result-container .result-tips p,
+body.dark .result-container .result-tips h3,
+body.dark .result-container .bonus-tips {
+  color: #ddd; /* Light text */
+}
+
+body.dark .health-tips-container {
+  background-color: #1a3d1a; /* Dark green background */
+  color: #b4f7b4; /* Light green text */
+  border: 3px solid #66ff66;
+}
+
+body.dark .health-tips-container h3 {
+  color: #b4f7b4;
+}
+
+body.dark .health-tips-container #based,
+body.dark .health-tips-container #disclaimer,
+body.dark .health-tips-container #instantTips {
+  color: #b4f7b4;
+}
+
+body.dark .result-container .bonus-tips {
+  background: linear-gradient(135deg, #000066, #c1006d);
+}
+
+body.dark .alert-danger {
+  background-color: #3d1a1a; /* Dark red background */
+  color: #f7b4b4; /* Light red/pink text */
+  border: 1px solid #ff6666; /* Bright red border */
+}
+
+body.dark .alert-success {
+  background-color: #1a3d1a; /* Dark green background */
+  color: #b4f7b4; /* Light green text */
+  border: 1px solid #66ff66; /* Bright green border */
+}
+
+/* Homepage Sidebar Menu */
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  padding: 10px 14px;
+  background-color: var(--panel-color);
+  border-right: 1px solid var(--border-color);
+  transition: var(--tran-05);
+  overflow: hidden;
+}
+
+nav.close {
+  width: 73px;
+}
+
+nav .name {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-left: 14px;
+  margin-top: 0.5rem;
+  transition: var(--tran-05);
+}
+
+.name span {
+  color: var(--primary-color);
+}
+
+nav.close .name {
+  opacity: 0;
+  pointer-events: none;
+}
+
+nav .menu-items {
+  flex: 1;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-items li {
+  list-style: none;
+}
+
+.menu-items li a {
+  height: 60px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.menu-items li a i {
+  font-size: 24px;
+  min-width: 45px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black-light-color);
+}
+
+.menu-items li a .link-name {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--black-light-color);
+  transition: var(--tran-05);
+}
+
+nav.close li a .link-name {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav-links li a.active i,
+.nav-links li a.active .link-name {
+  color: var(--primary-color);
+}
+
+.nav-links li a:hover i,
+.nav-links li a:hover .link-name {
+  color: var(--primary-color);
+}
+
+.bottom-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.menu-items .logout-mode {
+  padding-top: 10px;
+  padding-bottom: 0;
+  border-top: 1px solid var(--border-color);
+  display: inline-block;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.logout-mode li a:hover i,
+.logout-mode li a:hover .link-name {
+  color: red;
+}
+
+.menu-items .mode {
+  display: flex;
+  align-items: center;
+}
+
+.menu-items .mode-toggle {
+  position: absolute;
+  right: 14px;
+  height: 50px;
+  min-width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mode-toggle .switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+  border-radius: 25px;
+  background-color: var(--toggle-color);
+}
+
+.switch:before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: var(--panel-color);
+  border-radius: 50%;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: var(--tran-03);
+}
+
+body.dark .switch:before {
+  left: 20px;
+}
+
+.dashboard {
+  display: flex;
+  position: relative;
+  margin-left: 250px;
+  background-color: var(--panel-color);
+  min-height: 100vh;
+  width: calc(100% - 250px);
+  padding: 10px;
+  transition: var(--tran-05);
+}
+
+nav.close ~ .dashboard {
+  margin-left: 73px;
+  width: calc(100% - 73px);
+}
+
+.dashboard .top {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 250px; /* Align with sidebar */
+  width: calc(100% - 250px); /* Adjust based on sidebar width */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--panel-color);
+  transition: var(--tran-05);
+  z-index: 1000;
+}
+
+nav.close ~ .dashboard .top {
+  left: 73px;
+  width: calc(100% - 73px);
+}
+
+.dashboard .top .sidebar-toggle {
+  font-size: 30px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-pic {
+  margin-top: 10px;
+  width: 34px;
+  margin-right: 10px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid white;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  color: black;
+  list-style-type: none;
+  padding: 10px 0;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  z-index: 100;
+  min-width: 150px;
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  cursor: default;
+}
+
+.dropdown-menu li:last-child {
+  border-top: none;
+  border-bottom: none;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-menu li a:hover {
+  color: var(--primary-color);
+}
+
+.dropdown-menu #out:hover {
+  color: red;
+}
+
+/* Homepage */
+
+.dashboard .dash-content {
+  flex-grow: 1;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.dash-content .title {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 30px 0;
+  cursor: default;
+}
+
+.dash-content .title i {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  color: var(--title-icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.dash-content .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-left: 10px;
+}
+
+.dash-content .text {
+  padding-left: 0.5rem;
+}
+
+.dash-content .box .box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  background-color: var(--primary-color);
+}
+
+/* Box 1 */
+.box1 {
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: var(--primary-color);
+  }
+  25% {
+    background-color: var(--primary-color);
+  }
+  50% {
+    background-color: darkred;
+  }
+  75% {
+    background-color: darkred;
+  }
+  100% {
+    background-color: var(--primary-color);
+  }
+}
+
+.box1:hover {
+  transform: scale(1.014);
+}
+
+.box1 i {
+  font-size: 50px;
+  min-width: 45px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--title-icon-color);
+}
+
+.box1 .text {
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--title-icon-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Box2 */
+.box2 {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 20px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.box2 .diabetes-icon {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 240px;
+}
+
+.box2 h2 {
+  margin: 0 0 15px;
+  font-size: 24px;
+  color: var(--primary-color);
+  cursor: default;
+}
+.box2 p {
+  margin: 0 0 15px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: black;
+  cursor: default;
+}
+
+/* Box3 */
+.box3 {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 70px;
+  margin: 20px 0;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.box3 .types-icon {
+  display: inline-flex;
+  margin: 0 auto 10px;
+  max-width: 240px;
+}
+
+.carousel-container h2 {
+  margin: 2rem 0 0;
+  font-size: 23px;
+  color: var(--primary-color);
+  cursor: default;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.card {
+  min-width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card h3 {
+  margin-bottom: 15px;
+  padding-top: 0px;
+  color: var(--primary-color);
+  font-size: 1.25em;
+  cursor: default;
+}
+
+.card p {
+  color: black;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: default;
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.carousel-buttons {
+  position: relative;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding-top: 1.5rem;
+  justify-content: space-between;
+}
+.carousel-buttons button {
+  padding: 5px 8px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.carousel-buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.box4 {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 70px;
+  margin: 20px 0;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 23px;
+  padding-top: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+  cursor: default;
+}
+
+.symptom-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.symptom-card {
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.symptom-card:hover {
+  transform: scale(1.05);
+}
+
+.symptom-card h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.symptom-card p {
+  color: #fff;
+}
+
+/* History Table Container Styling */
+.history .title {
+  margin-top: 2rem;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically (optional) */
+  width: 100%; /* Full width */
+  height: 300px; /* Adjust height as needed */
+}
+
+#historyChart {
+  max-width: 600px; /* Adjust width as needed */
+  width: 100%;
+}
+
+#historyTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  border-radius: 1px;
+  cursor: default;
+}
+
+#historyTable thead {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: left;
+}
+
+#historyTable thead th {
+  padding: 12px;
+  border-bottom: 1px solid black;
+  font-weight: 550;
+}
+
+/* Table Body Styling */
+#historyTable tbody td {
+  padding: 12px;
+  border-bottom: 1px solid black;
+  cursor: default;
+}
+
+/* Glucose, Weight & Insulin Tracking Pages */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  cursor: default;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+.chart-section {
+  margin-top: 20px;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  max-height: 300px;
+}
+
+.history-section {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 550;
+  cursor: default;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  cursor: default;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.close-button {
+  float: right;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Style for Delete Button */
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+/* Edit Profile */
+
+.edit-profile-container h2 {
+  margin-bottom: 20px;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-profile-container h2::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background: #007bff;
+  border-radius: 50%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 550;
+  color: black;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#btn-edit {
+  margin-top: 2rem;
+  background: #0065d1;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#btn-edit:hover {
+  background: var(--primary-color);
+}
+
+.delete-account button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.delete-account button:hover {
+  background-color: #ff1a1a;
+}
+
+.alert-danger {
+  background-color: #ffe5e5; /* Light red background */
+  color: #d9534f; /* Red text */
+  border: 1px solid #d9534f;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Success Message Style */
+.alert-success {
+  background-color: #e5ffe5; /* Light green background */
+  color: #28a745; /* Green text */
+  border: 1px solid #28a745;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Health Tips Page */
+.result-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px 20px;
+  text-decoration: none;
+  cursor: default;
+  background-color: var(--primary-color);
+}
+
+.result-container .result-tips p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.result-container .result-tips h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.health-tips-container {
+  margin-top: 1.5rem;
+  background-color: #b4f7b4; /* Light green background */
+  color: #000; /* Green text */
+  border: 3px solid #28a745;
+  border-radius: 10px;
+}
+
+.health-tips-container h3 {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.health-tips-container #disclaimer {
+  padding-top: 0.4rem;
+  text-align: center;
+}
+
+.health-tips-container #instantTips {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  font-size: 15.5px;
+}
+
+.health-tips-container .based {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.tips-list li {
+  margin-bottom: 12px; /* Adds spacing between tips */
+}
+
+/* Bonus AI-Generated Tip */
+.bonus-tips {
+  margin-top: 1rem;
+  background: linear-gradient(135deg, #00008b, #ff1493);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.bonus-tips p {
+  font-size: 15px;
+}
+
+/* Media queries for responsiveness */
+/* Dashboard Homepage Responsive: Mobile & Tablet Screens */
+
+@media (max-width: 768px) {
+  /* Sidebar Adjustments */
+  nav {
+    width: 73px;
+    transition: var(--tran-05);
+  }
+
+  nav.close {
+    width: 0;
+    overflow: hidden;
+  }
+
+  nav .name,
+  nav .menu-items li a .link-name {
+    opacity: 0;
+    pointer-events: none;
+    transition: var(--tran-05);
+  }
+
+  nav.close .name,
+  nav.close .menu-items li a .link-name {
+    display: none;
+  }
+
+  /* When sidebar is closed */
+  nav.close ~ .dashboard {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  nav.close ~ .dashboard .top {
+    left: 0;
+    width: 100%;
+  }
+
+  /* When sidebar is open */
+  nav.open {
+    width: 250px; /* Adjust as per your requirement */
+  }
+
+  nav.open ~ .dashboard {
+    margin-left: 350px; /* Adjust to match the expanded sidebar width */
+    width: calc(100% - 250px);
+  }
+
+  nav.open ~ .dashboard .top {
+    left: 250px; /* Adjust top section width when sidebar is open */
+    width: calc(100% - 250px);
+  }
+
+  /* Dashboard Adjustments */
+  .dashboard {
+    margin-left: 73px;
+    width: calc(100% - 73px);
+    flex-direction: column;
+    padding: 10px 5px;
+  }
+
+  .dashboard .top {
+    left: 73px;
+    width: calc(100% - 73px);
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Content Adjustments */
+  .dash-content {
+    padding-top: 70px;
+  }
+
+  .dash-content .title {
+    font-size: 19px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .box1 .text {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .box2,
+  .box3,
+  .box4 {
+    padding: 20px;
+  }
+
+  /* Headings */
+  .box2 h2,
+  .box3 h2,
+  .box4 h2,
+  .carousel-container h2,
+  .section-heading {
+    font-size: 20px;
+  }
+
+  /* Text and Carousel Adjustments */
+  .box2 p,
+    .card p {
+        font-size: 1em; /* Slightly larger font size for mobile */
+    }
+
+    /* Ensure text remains centered and card doesn't overflow */
+    .box2 .card p {
+        text-align: center; /* Center text on mobile as well */
+    }
+
+    .card {
+        width: 100%; /* Ensure the card takes up full width */
+        max-width: 100%; /* Prevent it from overflowing */
+    }
+
+  .carousel-buttons {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* Grid and Dropdown Adjustments */
+  .symptom-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .menu-items .logout-mode {
+    padding: 5px 0;
+  }
+
+  /* Profile Dropdown Menu */
+  .dropdown-menu {
+    right: -6px;
+    min-width: 140px;
+  }
+}

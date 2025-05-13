@@ -1,0 +1,423 @@
+/* Page styles for Login, Resgistration,
+Account Activation (EN & BM), Reset Password, Email Verification Reset Password,
+Risk Assessment Form */
+
+body {
+  padding: 50px;
+  background-color: #004aad !important;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 2rem;
+}
+
+.container header {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .name-lang {
+  margin-bottom: 1.5rem;
+}
+
+.container span {
+  color: #004aad;
+}
+
+.alert {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 15px; /* Space between the message and the form */
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Error Message Style */
+.alert-danger {
+  background-color: #ffe5e5; /* Light red background */
+  color: #d9534f; /* Red text */
+  border: 1px solid #d9534f;
+}
+
+/* Success Message Style */
+.alert-success {
+  background-color: #e5ffe5; /* Light green background */
+  color: #28a745; /* Green text */
+  border: 1px solid #28a745;
+}
+
+.btn-primary {
+  background-color: #004aad !important;
+  border-color: #004aad !important;
+}
+
+.btn-primary:hover {
+  background-color: #003580 !important;
+  border-color: #003580 !important;
+}
+
+a {
+  color: #004aad !important;
+}
+
+a:hover {
+  color: #003580 !important;
+}
+
+.auth-links {
+  margin-top: 1.5rem;
+}
+
+.auth-links p {
+  margin: 3px 0;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+/* Risk Assessment Form */
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #004aad;
+}
+
+.container-box {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 2rem;
+}
+
+.container-box h1 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  cursor: default;
+}
+
+.container-box span {
+  color: #004aad;
+}
+
+.container-box h4 {
+  text-align: center;
+  font-weight: 600;
+  cursor: default;
+}
+
+.container-box .form {
+  margin-top: 30px;
+}
+
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-box label {
+  color: black;
+  font-weight: 600;
+}
+
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  min-height: 50px; /* allow it to expand */
+  height: auto; /* let it grow if placeholder wraps */
+  width: 100%;
+  outline: none;
+  font-size: 0.85rem;
+  color: black;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 15px; /* vertical padding for comfort */
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+/* Placeholder styling */
+.form :where(.input-box input)::placeholder {
+  font-size: 0.75rem;
+  color: #888;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  line-height: 1.4;
+}
+
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+
+.form .gender-box {
+  margin-top: 20px;
+}
+
+.gender-box h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  cursor: default;
+}
+
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .gender {
+  column-gap: 5px;
+}
+
+.gender input {
+  accent-color: #004aad;
+}
+
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+
+.gender label {
+  color: black;
+}
+
+.form .family-box {
+  margin-top: 20px;
+}
+
+.family-box h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  cursor: default;
+}
+
+.form :where(.family-option, .family) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .family {
+  column-gap: 5px;
+}
+
+.family input {
+  accent-color: #004aad;
+}
+
+.form :where(.family input, .family label) {
+  cursor: pointer;
+}
+
+.family label {
+  color: black;
+}
+
+.form .bp-box {
+  margin-top: 20px;
+}
+
+.bp-box h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  cursor: default;
+}
+
+.form :where(.bp-option, .bp) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .bp {
+  column-gap: 5px;
+}
+
+.bp input {
+  accent-color: #004aad;
+}
+
+.form :where(.bp input, .bp label) {
+  cursor: pointer;
+}
+
+.bp label {
+  color: black;
+}
+
+.form .activity-box {
+  margin-top: 20px;
+}
+
+.activity-box h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  cursor: default;
+}
+
+.form :where(.activity-option, .activity) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .activity {
+  column-gap: 5px;
+}
+
+.activity input {
+  accent-color: #004aad;
+}
+
+.form :where(.activity input, .activity label) {
+  cursor: pointer;
+}
+
+.activity label {
+  color: black;
+}
+
+.form .sugar-box {
+  margin-top: 20px;
+}
+
+.sugar-box h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  cursor: default;
+}
+
+.form :where(.sugar-option, .sugar) {
+  display: block;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .sugar {
+  column-gap: 5px;
+}
+
+.sugar input {
+  accent-color: #004aad;
+}
+
+.form :where(.sugar input, .sugar label) {
+  cursor: pointer;
+}
+
+.sugar label {
+  color: black;
+}
+
+.form .symptom-box {
+  margin-top: 20px;
+}
+
+.symptom-box h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  cursor: default;
+}
+
+.form :where(.symptom-option, .symptom) {
+  display: block;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .symptom {
+  column-gap: 5px;
+}
+
+.symptom input {
+  accent-color: #004aad;
+}
+
+.form :where(.symptom input, .symptom label) {
+  cursor: pointer;
+}
+
+.symptom label {
+  color: black;
+}
+
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #004aad;
+}
+
+.form button:hover {
+  background: #00357b;
+}
+
+.disclaimer {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: default;
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+  .form :where(.input-box input) {
+    font-size: 0.8rem;
+    padding: 0 12px;
+  }
+}

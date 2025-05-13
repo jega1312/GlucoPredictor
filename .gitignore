@@ -1,0 +1,15 @@
+database.php
+
+mailer.php
+
+vendor/
+
+venv/
+
+.env
+
+test/
+
+composer.json
+
+composer.lock

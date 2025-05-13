@@ -1,0 +1,527 @@
+<!-- Insulin Tracking Page -->
+
+<!-- PHP code -->
+<?php
+session_start();
+
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
+
+// Redirect to login if the user is not authenticated
+if (!isset($_SESSION["user_id"]) || $_SESSION["role"] !== "User") {
+    header("Location: /glucopredictor/login.php");
+    exit();
+}
+
+// Handle language selection
+if (isset($_GET['lang'])) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$lang = $_SESSION['lang'] ?? 'en'; // Default to English
+
+// Translation array
+$translations = [
+    'en' => [
+        'home' => 'Home',
+        'risk_assessment' => 'Risk Assessment',
+        'history' => 'History',
+        'health_tips' => 'Health Tips',
+        'glucose_tracking' => 'Glucose Tracking',
+        'weight_tracking' => 'Weight Tracking',
+        'insulin_tracking' => 'Insulin Tracking',
+        'logout' => 'Logout',
+        'dark_mode' => 'Dark Mode',
+        'english' => 'EN',
+        'malay' => 'BM',
+        'edit_profile' => 'Edit Profile',
+        'add_entry' => '+ Add Entry',
+        'past_entries' => 'Past Entries',
+        'date' => 'Date',
+        'time' => 'Time',
+        'dosage' => 'Dosage (unit)',
+        'action' => 'Action',
+        'add_insulin_entry' => 'Add Insulin Entry',
+        'date_label' => 'Date:',
+        'time_label' => 'Time:',
+        'dosage_label' => 'Dosage:',
+        'save' => 'Save',
+        'clear' => 'Clear',
+        'empty_fields' => 'All fields are required!',
+        'confirm_delete' => 'Are you sure you want to delete this entry?',
+        'logout_confirmation' => 'Are you sure you want to log out?',
+    ],
+    'ms' => [
+        'home' => 'Laman Utama',
+        'risk_assessment' => 'Penilaian Risiko',
+        'history' => 'Sejarah',
+        'health_tips' => 'Tip Kesihatan',
+        'glucose_tracking' => 'Penjejakan Glukosa',
+        'weight_tracking' => 'Penjejakan Berat',
+        'insulin_tracking' => 'Penjejakan Insulin',
+        'logout' => 'Log Keluar',
+        'dark_mode' => 'Mod Gelap',
+        'english' => 'EN',
+        'malay' => 'BM',
+        'edit_profile' => 'Kemaskini Profil',
+        'add_entry' => '+ Tambah Entri',
+        'past_entries' => 'Entri Terdahulu',
+        'date' => 'Tarikh',
+        'time' => 'Masa',
+        'dosage' => 'Dos (unit)',
+        'action' => 'Tindakan',
+        'add_insulin_entry' => 'Tambah Entri Insulin',
+        'date_label' => 'Tarikh:',
+        'time_label' => 'Masa:',
+        'dosage_label' => 'Dos:',
+        'save' => 'Simpan',
+        'clear' => 'Padam',
+        'empty_fields' => 'Semua medan diperlukan!',
+        'confirm_delete' => 'Adakah anda pasti untuk memadam entri ini?',
+        'logout_confirmation' => 'Adakah anda pasti untuk log keluar?',
+    ],
+];
+
+include("../database.php");
+
+$user_id = $_SESSION["user_id"];
+
+// Fetch username from the database
+$sql = "SELECT username FROM users WHERE user_id = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$user = $result->fetch_assoc();
+$username = $user["username"] ?? "Guest"; // Default username if not found
+
+$stmt->close();
+$conn->close();
+?>
+
+
+<!-- HTML code -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $translations[$lang]['insulin_tracking']; ?></title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="shortcut icon" href="images/logo-favicon.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="name">
+            <a href="index.php">
+                <p class="name"><span>Gluco</span>Predictor</p>
+            </a>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="index.php">
+                        <i class="uil uil-estate"></i>
+                        <p class="link-name"><?php echo $translations[$lang]['home']; ?></p>
+                    </a></li>
+
+                <li><a href="form.php">
+                        <i class="uil uil-file-medical-alt"></i>
+                        <p class="link-name"><?php echo $translations[$lang]['risk_assessment']; ?></p>
+                    </a></li>
+
+                <li><a href="tips.php">
+                        <i class="uil uil-heart-medical"></i>
+                        <p class="link-name"><?php echo $translations[$lang]['health_tips']; ?></p>
+                    </a></li>
+
+                <li><a href="history.php">
+                        <i class="uil uil-history"></i>
+                        <p class="link-name"><?php echo $translations[$lang]['history']; ?></p>
+                    </a></li>
+
+                <li><a href="glucose.php">
+                        <i class="uil uil-tear"></i>
+                        <p class="link-name"><?php echo $translations[$lang]['glucose_tracking']; ?></p>
+                    </a></li>
+
+                <li><a href="weight.php">
+                        <i class="uil uil-weight"></i>
+                        <p class="link-name"><?php echo $translations[$lang]['weight_tracking']; ?></p>
+                    </a></li>
+
+                <li><a href="insulin.php" class="active">
+                        <i class="uil uil-syringe"></i>
+                        <p class="link-name"><?php echo $translations[$lang]['insulin_tracking']; ?></p>
+                    </a></li>
+
+            </ul>
+
+
+            <div class="bottom-menu">
+                <ul class="logout-mode">
+                    <li><a href="logout.php" id="logoutBtn">
+                            <i class="uil uil-sign-out-alt"></i>
+                            <p class="link-name"><?php echo $translations[$lang]['logout']; ?></p>
+                        </a></li>
+                </ul>
+
+                <ul class="dark-mode">
+                    <li class="mode">
+                        <a href="#">
+                            <i class="uil uil-moon"></i>
+                            <span class="link-name"><?php echo $translations[$lang]['dark_mode']; ?></span>
+                        </a>
+                        <div class="mode-toggle">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+                </ul>
+
+
+            </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+            <div class="profile-container">
+                <img src="images/profile.png" alt="Profile Picture" class="profile-pic" id="profileToggle">
+                <ul class="dropdown-menu" id="dropdownMenu">
+                    <li class="username" style="color: blue;"><?php echo htmlspecialchars($username); ?></li>
+                    <li>
+                        <div class="text-center mt-2">
+                            <a href="?lang=en"><?php echo $translations[$lang]['english']; ?></a> |
+                            <a href="?lang=ms"><?php echo $translations[$lang]['malay']; ?></a>
+                        </div>
+                    </li>
+                    <li><a href="edit.php"><?php echo $translations[$lang]['edit_profile']; ?></a></li>
+                    <li><a href="logout.php" id="out"><?php echo $translations[$lang]['logout']; ?></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-syringe"></i>
+                    <span class="text"><?php echo $translations[$lang]['insulin_tracking']; ?></span>
+                </div>
+
+                <div class="page-header">
+                    <h1><?php echo $translations[$lang]['insulin_tracking']; ?></h1>
+                    <button class="btn" id="addEntryButton"><?php echo $translations[$lang]['add_entry']; ?></button>
+                </div>
+
+                <!-- Insulin Chart -->
+                <div class="chart-section">
+                    <canvas id="insulinChart"></canvas>
+                </div>
+
+                <!-- History Section -->
+                <div class="insulin-history-section">
+                    <div class="title">
+                        <i class="uil uil-book-medical"></i>
+                        <span class="text"><?php echo $translations[$lang]['past_entries']; ?></span>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><?php echo $translations[$lang]['date']; ?></th>
+                                <th><?php echo $translations[$lang]['time']; ?></th>
+                                <th><?php echo $translations[$lang]['dosage']; ?></th>
+                                <th><?php echo $translations[$lang]['action']; ?></th>
+                            </tr>
+                        </thead>
+                        <tbody id="entriesTableBody">
+                            <!-- Dynamically populated rows -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Modal for Adding Entry -->
+                <div class="modal" id="addEntryModal">
+                    <div class="modal-content">
+                        <span class="close-button" id="closeModal">&times;</span>
+                        <h2><?php echo $translations[$lang]['add_insulin_entry']; ?></h2>
+                        <form id="insulinForm">
+                            <label for="date"><?php echo $translations[$lang]['date_label']; ?></label>
+                            <input type="date" id="insulinDate" required><br>
+
+                            <label for="time"><?php echo $translations[$lang]['time_label']; ?></label>
+                            <input type="time" id="insulinTime" required><br>
+
+                            <label for="dosage"><?php echo $translations[$lang]['dosage_label']; ?></label>
+                            <input type="number" id="dosage" placeholder="unit" min="0" required><br>
+
+                            <button type="submit" class="btn"><?php echo $translations[$lang]['save']; ?></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JavaScript code -->
+    <script>
+        const body = document.querySelector("body");
+        const modeToggle = document.querySelector(".mode-toggle");
+
+        // Check localStorage for dark mode preference
+        if (localStorage.getItem("darkMode") === "enabled") {
+            body.classList.add("dark");
+        }
+
+        // Toggle dark mode on button click
+        modeToggle.addEventListener("click", () => {
+            body.classList.toggle("dark");
+
+            // Save preference in localStorage
+            if (body.classList.contains("dark")) {
+                localStorage.setItem("darkMode", "enabled");
+            } else {
+                localStorage.setItem("darkMode", "disabled");
+            }
+        });
+
+        function attachLogoutConfirmation(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                element.addEventListener("click", function(e) {
+                    e.preventDefault();
+
+                    var isConfirmed = confirm("<?php echo $translations[$lang]['logout_confirmation']; ?>");
+
+                    if (isConfirmed) {
+                        localStorage.removeItem('activeTab');
+                        window.location.href = "logout.php";
+                    }
+                });
+            }
+        }
+
+        // Attach to both buttons/links
+        attachLogoutConfirmation("logoutBtn");
+        attachLogoutConfirmation("out");
+
+        sidebar = body.querySelector("nav"),
+            sidebarToggle = body.querySelector(".sidebar-toggle");
+
+        sidebarToggle.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        });
+
+        const profileToggle = document.getElementById('profileToggle');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+
+        profileToggle.addEventListener('click', () => {
+            dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!profileToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                dropdownMenu.style.display = 'none';
+            }
+        });
+
+        //Insulin Tracking - User-Specific Data Handling
+        const userId = <?php echo json_encode($_SESSION["user_id"]); ?>; // Get user ID from PHP
+
+        // Function to get user-specific storage key
+        function getStorageKey() {
+            return `InsulinEntries_${userId}`;
+        }
+
+        const addInsulinEntryButton = document.getElementById('addEntryButton');
+        const addInsulinEntryModal = document.getElementById('addEntryModal');
+        const closeInsulinModal = document.getElementById('closeModal');
+        const insulinForm = document.getElementById('insulinForm');
+        const entriesInsulinTableBody = document.getElementById('entriesTableBody');
+
+        addInsulinEntryButton.addEventListener('click', () => {
+            addInsulinEntryModal.style.display = 'flex';
+        });
+
+        closeInsulinModal.addEventListener('click', () => {
+            addInsulinEntryModal.style.display = 'none';
+        });
+
+        // Load Data from localStorage (User-Specific)
+        function loadEntries() {
+            const savedEntries = JSON.parse(localStorage.getItem(getStorageKey())) || [];
+            savedEntries.forEach((entry, index) => {
+                addTableRow(entry, index);
+            });
+        }
+
+        // Save Data to localStorage (User-Specific)
+        function saveEntry(entry) {
+            const savedEntries = JSON.parse(localStorage.getItem(getStorageKey())) || [];
+            savedEntries.push(entry);
+            localStorage.setItem(getStorageKey(), JSON.stringify(savedEntries));
+        }
+
+        // Add Row to Table
+        function addTableRow(entry, index) {
+            const newRow = document.createElement('tr');
+            newRow.setAttribute('data-index', index);
+            newRow.innerHTML = `
+            <td>${entry.date}</td>
+            <td>${entry.time}</td>
+            <td>${entry.dosage}</td>
+            <td><button class="delete-btn"><?php echo $translations[$lang]['clear']; ?></button></td>
+        `;
+
+            // Add delete functionality
+            const deleteButton = newRow.querySelector('.delete-btn');
+            deleteButton.addEventListener('click', () => deleteRow(index, newRow));
+
+            entriesInsulinTableBody.appendChild(newRow);
+        }
+
+        // Handle Form Submission
+        insulinForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const insulinDate = document.getElementById('insulinDate').value;
+            const insulinTime = document.getElementById('insulinTime').value;
+            const dosage = parseFloat(document.getElementById('dosage').value);
+
+            if (!insulinDate || !insulinTime || isNaN(dosage)) {
+                alert('<?php echo $translations[$lang]['empty_fields']; ?>');
+                return;
+            }
+
+            const entry = {
+                date: insulinDate,
+                time: insulinTime,
+                dosage
+            };
+
+            // Save to localStorage (User-Specific)
+            saveEntry(entry);
+
+            // Add to table
+            addTableRow(entry, JSON.parse(localStorage.getItem(getStorageKey())).length - 1);
+
+            //Update Chart Instantly  
+            addEntryToChart(insulinDate, dosage);
+
+            insulinForm.reset();
+            addInsulinEntryModal.style.display = 'none';
+        });
+
+        // Delete Individual Row
+        function deleteRow(index, rowElement) {
+            if (confirm('<?php echo $translations[$lang]['confirm_delete']; ?>')) {
+                const savedEntries = JSON.parse(localStorage.getItem(getStorageKey())) || [];
+                savedEntries.splice(index, 1);
+                localStorage.setItem(getStorageKey(), JSON.stringify(savedEntries));
+
+                rowElement.remove();
+                reindexTableRows();
+                updateChart();
+            }
+        }
+
+        // Re-index Table Rows
+        function reindexTableRows() {
+            const rows = entriesInsulinTableBody.querySelectorAll('tr');
+            rows.forEach((row, newIndex) => {
+                row.setAttribute('data-index', newIndex);
+                const deleteButton = row.querySelector('.delete-btn');
+                deleteButton.onclick = () => deleteRow(newIndex, row);
+            });
+        }
+
+        // Chart.js for Insulin Tracking
+        const ctx = document.getElementById('insulinChart').getContext('2d');
+        let insulinChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: '<?php echo $translations[$lang]['dosage']; ?>',
+                    data: [],
+                    borderColor: '#004aad',
+                    backgroundColor: 'rgba(0, 0, 255, 0.2)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4,
+                }, ],
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: (context) => `${context.dataset.label}: ${context.raw} units`,
+                        },
+                    },
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: '<?php echo $translations[$lang]['date']; ?>'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: '<?php echo $translations[$lang]['dosage']; ?>'
+                        },
+                        beginAtZero: false
+                    },
+                },
+            },
+        });
+
+        // Load Data into Chart (User-Specific)
+        function loadChartEntries() {
+            const savedEntries = JSON.parse(localStorage.getItem(getStorageKey())) || [];
+            insulinChart.data.labels = [];
+            insulinChart.data.datasets[0].data = [];
+
+            savedEntries.forEach((entry) => {
+                insulinChart.data.labels.push(entry.date);
+                insulinChart.data.datasets[0].data.push(entry.dosage);
+            });
+            insulinChart.update();
+        }
+
+        // Add New Entry to Chart
+        function addEntryToChart(date, dosage) {
+            insulinChart.data.labels.push(date);
+            insulinChart.data.datasets[0].data.push(dosage);
+            insulinChart.update();
+        }
+
+        // Update Chart after Deletion
+        function updateChart() {
+            loadChartEntries();
+        }
+
+        // Load chart data on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadEntries();
+            loadChartEntries();
+        });
+    </script>
+
+
+</body>
+
+
+</html>

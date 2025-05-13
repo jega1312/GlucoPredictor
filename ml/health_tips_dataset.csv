@@ -1,0 +1,1001 @@
+age,gender,pregnancies,bmi,family_history,high_bp,activity,sugar_intake,symptoms,diabetes_risk
+65,Male,0,20.7,No,No,Rarely,Few-weekly,"Fatigue, Frequent_urination",Moderate
+77,Female,3,26.7,No,No,Rarely,Rarely-never,None,Moderate
+38,Female,5,31.3,No,No,Never,Few-weekly,None,High
+20,Male,0,38.5,No,No,Rarely,Every-meal,"Frequent_urination, Weight_loss",High
+20,Male,0,37.5,No,Yes,Never,Every-meal,"Blurry_vision, Weight_loss, Excessive_thirst, Fatigue, Frequent_urination",High
+38,Female,3,43.3,Yes,No,Rarely,Few-weekly,Fatigue,High
+65,Female,5,22.8,No,Yes,Never,Few-weekly,"Frequent_urination, Fatigue, Weight_loss",High
+66,Male,0,28.7,No,Yes,Rarely,Rarely-never,"Blurry_vision, Frequent_urination, Excessive_thirst",High
+33,Female,2,21.9,Yes,No,Never,Once-daily,"Weight_loss, Frequent_urination",High
+74,Female,0,40.8,No,Yes,Rarely,Rarely-never,None,High
+37,Female,5,17,Yes,No,Rarely,Few-weekly,"Fatigue, Weight_loss, Excessive_thirst, Frequent_urination",High
+27,Female,3,20.8,Yes,Yes,Rarely,Few-weekly,Weight_loss,High
+20,Female,2,32.1,No,Yes,Rarely,Few-weekly,None,High
+28,Female,2,31.1,Yes,Yes,Rarely,Few-weekly,"Weight_loss, Blurry_vision",High
+39,Female,5,31.6,No,No,Never,Once-daily,"Fatigue, Frequent_urination, Blurry_vision, Excessive_thirst, Weight_loss",High
+66,Female,1,22.3,No,No,Never,Every-meal,"Fatigue, Weight_loss, Blurry_vision, Excessive_thirst, Frequent_urination",High
+37,Male,0,33.9,No,Yes,Rarely,Every-meal,"Blurry_vision, Fatigue",High
+40,Female,2,29.3,Yes,No,Rarely,Rarely-never,"Blurry_vision, Frequent_urination, Fatigue, Weight_loss",High
+38,Male,0,33.7,No,Yes,Rarely,Every-meal,"Blurry_vision, Weight_loss, Frequent_urination",High
+65,Female,1,26.8,Yes,Yes,Never,Every-meal,Weight_loss,High
+19,Female,3,22.1,Yes,No,Rarely,Few-weekly,"Frequent_urination, Weight_loss",High
+30,Female,2,44.6,No,Yes,Rarely,Every-meal,"Fatigue, Excessive_thirst, Weight_loss, Blurry_vision",High
+23,Female,5,15.1,Yes,No,Rarely,Every-meal,Excessive_thirst,High
+61,Female,1,48.9,Yes,Yes,Never,Rarely-never,Blurry_vision,High
+50,Male,0,31.5,Yes,Yes,Never,Once-daily,None,High
+50,Female,5,27.3,No,No,Rarely,Few-weekly,None,Moderate
+39,Male,0,24,No,Yes,Rarely,Rarely-never,None,High
+23,Male,0,35,No,Yes,Never,Once-daily,"Frequent_urination, Weight_loss",High
+73,Male,0,38.3,No,Yes,Never,Once-daily,Fatigue,High
+72,Male,0,33.7,Yes,No,Never,Few-weekly,"Excessive_thirst, Blurry_vision, Frequent_urination, Weight_loss, Fatigue",High
+41,Male,0,31.6,No,Yes,Rarely,Few-weekly,"Fatigue, Frequent_urination",High
+68,Male,0,21.8,No,No,Rarely,Few-weekly,"Fatigue, Excessive_thirst, Blurry_vision",High
+51,Male,0,33.4,Yes,Yes,Never,Rarely-never,"Fatigue, Blurry_vision",High
+63,Female,4,24.7,No,Yes,Never,Rarely-never,None,High
+34,Female,3,21.5,No,Yes,Rarely,Rarely-never,"Fatigue, Excessive_thirst, Weight_loss, Frequent_urination",High
+62,Female,0,33.8,Yes,Yes,Rarely,Once-daily,"Fatigue, Frequent_urination",High
+37,Male,0,34.5,No,Yes,Rarely,Every-meal,"Weight_loss, Frequent_urination, Excessive_thirst, Blurry_vision, Fatigue",High
+65,Female,2,42.5,Yes,No,Never,Few-weekly,None,High
+45,Female,4,35.5,No,Yes,Never,Rarely-never,Fatigue,High
+69,Male,0,30.1,No,No,Never,Few-weekly,None,High
+33,Female,0,30.3,Yes,No,Rarely,Once-daily,"Frequent_urination, Excessive_thirst, Blurry_vision, Weight_loss, Fatigue",High
+36,Female,3,15.7,No,No,Never,Few-weekly,Weight_loss,Moderate
+35,Female,3,23.6,No,No,Rarely,Few-weekly,"Fatigue, Weight_loss, Frequent_urination, Blurry_vision",High
+26,Male,0,37.1,Yes,Yes,Rarely,Few-weekly,"Blurry_vision, Excessive_thirst, Fatigue, Frequent_urination, Weight_loss",High
+80,Female,0,16.6,Yes,No,Rarely,Once-daily,"Frequent_urination, Weight_loss",High
+79,Female,5,28.5,No,Yes,Never,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision, Fatigue, Excessive_thirst",High
+53,Female,4,19.7,Yes,No,Rarely,Every-meal,None,High
+20,Female,3,28.7,Yes,No,Rarely,Once-daily,"Fatigue, Frequent_urination, Blurry_vision",High
+35,Female,2,40.1,Yes,No,Never,Once-daily,"Frequent_urination, Weight_loss, Excessive_thirst",High
+26,Female,1,25.7,No,No,Never,Once-daily,"Weight_loss, Blurry_vision, Fatigue, Excessive_thirst",High
+67,Male,0,32.2,No,Yes,Rarely,Once-daily,None,High
+56,Female,3,37.7,No,No,Rarely,Rarely-never,Excessive_thirst,High
+50,Male,0,30,Yes,No,Rarely,Once-daily,"Fatigue, Blurry_vision",High
+20,Female,4,43.6,Yes,No,Rarely,Rarely-never,None,High
+25,Female,4,21.4,No,No,Rarely,Once-daily,"Fatigue, Frequent_urination, Blurry_vision",High
+24,Male,0,23.1,No,Yes,Rarely,Once-daily,"Weight_loss, Frequent_urination, Fatigue, Excessive_thirst, Blurry_vision",High
+29,Male,0,37.5,No,Yes,Never,Once-daily,"Fatigue, Frequent_urination, Weight_loss",High
+43,Female,2,51.6,No,No,Rarely,Every-meal,"Frequent_urination, Blurry_vision, Weight_loss",High
+80,Male,0,27.6,Yes,No,Never,Rarely-never,"Fatigue, Blurry_vision, Excessive_thirst, Weight_loss, Frequent_urination",High
+22,Female,2,23.1,Yes,No,Rarely,Rarely-never,"Fatigue, Frequent_urination, Blurry_vision",High
+41,Female,2,17.4,Yes,Yes,Never,Rarely-never,"Weight_loss, Excessive_thirst, Blurry_vision, Frequent_urination",High
+50,Male,0,49.5,No,No,Never,Rarely-never,"Weight_loss, Excessive_thirst, Frequent_urination",High
+63,Female,4,37,Yes,Yes,Rarely,Few-weekly,None,High
+45,Female,1,29.1,No,No,Rarely,Once-daily,Frequent_urination,Moderate
+66,Male,0,17.3,Yes,Yes,Never,Once-daily,"Weight_loss, Blurry_vision, Excessive_thirst, Frequent_urination",High
+20,Female,2,21.2,Yes,No,Rarely,Once-daily,"Fatigue, Blurry_vision, Excessive_thirst",High
+45,Female,5,26.9,No,Yes,Never,Once-daily,"Excessive_thirst, Blurry_vision, Frequent_urination, Weight_loss",High
+25,Female,2,27.5,No,Yes,Never,Few-weekly,"Blurry_vision, Frequent_urination, Fatigue",High
+38,Male,0,45.4,No,No,Rarely,Once-daily,"Fatigue, Excessive_thirst, Blurry_vision, Frequent_urination",High
+73,Female,3,45.5,No,Yes,Rarely,Once-daily,Weight_loss,High
+66,Female,5,33.3,No,No,Never,Rarely-never,"Frequent_urination, Fatigue",High
+39,Female,2,24.7,No,No,Never,Few-weekly,"Fatigue, Weight_loss, Blurry_vision",High
+47,Male,0,35.3,No,No,Never,Few-weekly,"Blurry_vision, Weight_loss",High
+35,Male,0,39.9,Yes,No,Never,Once-daily,"Blurry_vision, Weight_loss, Fatigue, Frequent_urination",High
+51,Female,4,56.6,No,Yes,Rarely,Few-weekly,"Excessive_thirst, Frequent_urination, Blurry_vision",High
+76,Female,3,31.1,No,No,Never,Once-daily,"Frequent_urination, Excessive_thirst, Weight_loss, Blurry_vision, Fatigue",High
+53,Male,0,14.3,Yes,No,Never,Few-weekly,"Frequent_urination, Weight_loss, Excessive_thirst, Fatigue",High
+80,Male,0,34.4,Yes,Yes,Never,Once-daily,"Frequent_urination, Fatigue",High
+20,Female,5,27.3,No,No,Never,Once-daily,"Weight_loss, Fatigue",Moderate
+54,Female,5,37.3,Yes,Yes,Never,Once-daily,Blurry_vision,High
+34,Female,4,31.6,No,No,Never,Few-weekly,"Blurry_vision, Frequent_urination, Weight_loss, Excessive_thirst, Fatigue",High
+59,Male,0,31.7,No,No,Never,Every-meal,"Fatigue, Frequent_urination",High
+74,Female,0,16.3,No,Yes,Rarely,Few-weekly,"Blurry_vision, Fatigue",High
+63,Female,4,22.6,Yes,Yes,Rarely,Rarely-never,"Frequent_urination, Fatigue",High
+22,Female,2,31.7,No,No,Rarely,Every-meal,None,High
+35,Male,0,30.1,Yes,Yes,Rarely,Rarely-never,"Excessive_thirst, Blurry_vision, Weight_loss, Frequent_urination",High
+68,Female,1,21,Yes,No,Never,Rarely-never,None,High
+53,Female,0,18.3,No,No,Never,Few-weekly,None,Low
+18,Female,3,28,Yes,No,Never,Every-meal,None,High
+24,Female,1,43.7,Yes,Yes,Never,Every-meal,"Weight_loss, Frequent_urination, Excessive_thirst, Blurry_vision",High
+44,Male,0,22.1,No,No,Rarely,Few-weekly,"Fatigue, Frequent_urination, Excessive_thirst, Blurry_vision, Weight_loss",High
+36,Male,0,24.6,Yes,No,Rarely,Few-weekly,"Fatigue, Excessive_thirst, Blurry_vision",High
+47,Male,0,58.9,Yes,Yes,Rarely,Every-meal,Fatigue,High
+21,Male,0,37.6,Yes,No,Never,Rarely-never,"Weight_loss, Fatigue, Blurry_vision",High
+31,Male,0,24.3,Yes,Yes,Never,Once-daily,Excessive_thirst,High
+79,Male,0,16.8,No,No,Never,Rarely-never,Frequent_urination,Moderate
+41,Male,0,28.3,No,No,Rarely,Every-meal,"Frequent_urination, Blurry_vision, Excessive_thirst, Weight_loss",High
+79,Female,4,28.6,Yes,Yes,Never,Rarely-never,Blurry_vision,High
+75,Female,3,26.5,No,Yes,Rarely,Every-meal,None,High
+19,Female,4,22.7,Yes,Yes,Rarely,Once-daily,None,High
+62,Male,0,41,No,No,Never,Few-weekly,"Excessive_thirst, Fatigue",High
+62,Female,1,26,No,No,Never,Every-meal,"Blurry_vision, Excessive_thirst, Weight_loss",High
+69,Female,4,36.1,No,No,Rarely,Few-weekly,"Excessive_thirst, Blurry_vision, Frequent_urination, Fatigue",High
+51,Male,0,35.3,No,No,Never,Rarely-never,Excessive_thirst,High
+49,Female,3,19.6,Yes,Yes,Rarely,Rarely-never,None,High
+72,Female,4,39.2,Yes,No,Rarely,Once-daily,None,High
+44,Female,3,13.5,No,No,Never,Rarely-never,Weight_loss,Moderate
+20,Male,0,26.3,No,No,Never,Few-weekly,"Frequent_urination, Excessive_thirst",Moderate
+70,Male,0,42.8,Yes,No,Rarely,Every-meal,Fatigue,High
+80,Female,0,16.5,Yes,No,Never,Rarely-never,"Excessive_thirst, Blurry_vision, Fatigue, Frequent_urination",High
+62,Female,3,32.6,No,Yes,Rarely,Once-daily,"Fatigue, Excessive_thirst, Weight_loss",High
+34,Female,4,24.6,Yes,Yes,Never,Rarely-never,"Blurry_vision, Fatigue",High
+44,Female,2,32.4,No,No,Never,Once-daily,"Blurry_vision, Weight_loss, Excessive_thirst, Fatigue",High
+50,Female,1,16.3,No,Yes,Rarely,Once-daily,"Excessive_thirst, Weight_loss, Frequent_urination, Blurry_vision",High
+42,Female,5,42.1,Yes,Yes,Never,Every-meal,None,High
+44,Male,0,34.7,No,No,Rarely,Every-meal,"Weight_loss, Frequent_urination, Excessive_thirst",High
+18,Male,0,18.8,Yes,Yes,Rarely,Rarely-never,None,High
+52,Female,1,31.9,Yes,No,Rarely,Once-daily,Weight_loss,High
+77,Male,0,26.5,Yes,Yes,Rarely,Rarely-never,"Excessive_thirst, Blurry_vision, Fatigue, Weight_loss",High
+35,Male,0,18,No,No,Never,Once-daily,"Fatigue, Blurry_vision, Frequent_urination, Weight_loss",High
+45,Female,1,28,Yes,No,Never,Once-daily,"Fatigue, Excessive_thirst, Frequent_urination, Blurry_vision",High
+20,Male,0,34.2,Yes,Yes,Never,Rarely-never,"Blurry_vision, Excessive_thirst, Frequent_urination, Weight_loss, Fatigue",High
+74,Male,0,40.5,Yes,Yes,Rarely,Few-weekly,"Fatigue, Frequent_urination, Blurry_vision, Excessive_thirst, Weight_loss",High
+18,Male,0,38.5,Yes,No,Never,Every-meal,"Excessive_thirst, Blurry_vision, Frequent_urination",High
+64,Female,4,36.7,No,No,Rarely,Once-daily,"Frequent_urination, Blurry_vision, Excessive_thirst, Weight_loss, Fatigue",High
+67,Male,0,21.2,Yes,Yes,Never,Rarely-never,"Weight_loss, Blurry_vision, Fatigue, Frequent_urination, Excessive_thirst",High
+77,Female,4,28,No,Yes,Never,Once-daily,"Fatigue, Weight_loss, Frequent_urination, Excessive_thirst, Blurry_vision",High
+50,Male,0,21.7,No,Yes,Rarely,Once-daily,None,High
+73,Female,0,18.9,No,No,Rarely,Every-meal,Weight_loss,Moderate
+28,Male,0,45.9,No,No,Never,Few-weekly,"Blurry_vision, Weight_loss, Frequent_urination, Fatigue",High
+70,Male,0,23.5,Yes,No,Rarely,Few-weekly,Blurry_vision,High
+60,Male,0,42.4,No,No,Rarely,Once-daily,None,High
+77,Female,1,36,Yes,No,Rarely,Rarely-never,None,High
+35,Male,0,26.6,Yes,No,Never,Once-daily,Excessive_thirst,High
+70,Female,4,28.7,No,No,Never,Few-weekly,"Weight_loss, Excessive_thirst, Blurry_vision, Frequent_urination",High
+71,Male,0,53.2,No,Yes,Rarely,Rarely-never,"Weight_loss, Fatigue, Blurry_vision, Excessive_thirst",High
+49,Female,3,27.4,No,No,Never,Every-meal,None,Moderate
+20,Male,0,20.9,Yes,Yes,Never,Few-weekly,"Fatigue, Excessive_thirst",High
+24,Male,0,29.6,No,Yes,Never,Once-daily,"Fatigue, Frequent_urination",High
+67,Male,0,32.5,Yes,No,Rarely,Every-meal,"Frequent_urination, Fatigue, Excessive_thirst, Weight_loss",High
+30,Male,0,16.7,Yes,Yes,Rarely,Every-meal,None,High
+38,Male,0,24,Yes,No,Rarely,Every-meal,Frequent_urination,High
+62,Male,0,47.4,No,Yes,Rarely,Once-daily,"Frequent_urination, Fatigue, Blurry_vision, Excessive_thirst",High
+55,Female,1,38.6,Yes,No,Rarely,Every-meal,"Weight_loss, Fatigue, Blurry_vision",High
+44,Male,0,15.1,Yes,No,Never,Few-weekly,"Excessive_thirst, Fatigue, Blurry_vision, Frequent_urination",High
+20,Male,0,26.6,Yes,No,Rarely,Once-daily,Excessive_thirst,High
+24,Male,0,41,Yes,Yes,Rarely,Few-weekly,"Frequent_urination, Fatigue",High
+27,Female,4,17.1,Yes,Yes,Never,Few-weekly,None,High
+67,Male,0,25.2,Yes,No,Never,Once-daily,"Blurry_vision, Fatigue, Weight_loss",High
+54,Male,0,31.7,No,Yes,Rarely,Once-daily,Frequent_urination,High
+37,Female,3,35.3,Yes,Yes,Never,Once-daily,"Blurry_vision, Excessive_thirst, Frequent_urination",High
+54,Female,4,49.5,Yes,Yes,Rarely,Few-weekly,"Excessive_thirst, Blurry_vision, Fatigue",High
+52,Male,0,25.7,Yes,No,Rarely,Few-weekly,None,High
+58,Female,4,25,Yes,Yes,Never,Rarely-never,"Fatigue, Blurry_vision, Frequent_urination, Weight_loss",High
+36,Male,0,14.6,No,Yes,Never,Rarely-never,"Weight_loss, Frequent_urination",High
+52,Male,0,42.5,Yes,No,Rarely,Rarely-never,"Fatigue, Frequent_urination, Weight_loss, Blurry_vision",High
+24,Male,0,25,No,Yes,Never,Every-meal,"Excessive_thirst, Blurry_vision, Frequent_urination, Weight_loss, Fatigue",High
+29,Female,2,26,Yes,Yes,Rarely,Few-weekly,"Frequent_urination, Blurry_vision, Weight_loss",High
+79,Female,0,19,No,No,Never,Once-daily,"Frequent_urination, Fatigue",Moderate
+77,Female,3,20.7,No,No,Never,Every-meal,"Weight_loss, Frequent_urination",Moderate
+60,Male,0,49.9,No,No,Never,Once-daily,None,High
+25,Male,0,33.3,Yes,No,Rarely,Once-daily,"Excessive_thirst, Fatigue, Blurry_vision, Weight_loss, Frequent_urination",High
+69,Male,0,46.6,Yes,No,Rarely,Once-daily,"Excessive_thirst, Fatigue, Blurry_vision",High
+65,Male,0,31.2,No,No,Never,Once-daily,"Weight_loss, Excessive_thirst",High
+44,Female,5,32.8,No,No,Rarely,Once-daily,"Excessive_thirst, Blurry_vision",High
+21,Female,0,35.2,Yes,No,Rarely,Rarely-never,None,High
+72,Male,0,16.4,Yes,No,Never,Few-weekly,"Excessive_thirst, Blurry_vision, Frequent_urination, Fatigue",High
+68,Male,0,26.6,Yes,No,Never,Rarely-never,"Fatigue, Excessive_thirst",High
+29,Female,0,25.3,No,No,Never,Rarely-never,Excessive_thirst,Moderate
+46,Female,5,44.3,Yes,No,Never,Every-meal,"Blurry_vision, Weight_loss",High
+72,Male,0,32,No,Yes,Never,Once-daily,None,High
+46,Female,1,15,Yes,Yes,Rarely,Rarely-never,"Fatigue, Blurry_vision, Weight_loss, Excessive_thirst, Frequent_urination",High
+26,Female,4,23.4,Yes,No,Never,Once-daily,Excessive_thirst,High
+79,Male,0,17.4,Yes,Yes,Rarely,Once-daily,"Blurry_vision, Fatigue, Frequent_urination, Weight_loss",High
+45,Female,3,17.9,Yes,Yes,Rarely,Once-daily,"Frequent_urination, Fatigue, Excessive_thirst",High
+41,Male,0,22.3,Yes,Yes,Rarely,Once-daily,"Excessive_thirst, Blurry_vision, Weight_loss",High
+68,Male,0,24,Yes,Yes,Rarely,Few-weekly,"Fatigue, Blurry_vision, Excessive_thirst",High
+24,Female,1,24.5,No,No,Rarely,Once-daily,"Fatigue, Blurry_vision, Frequent_urination",High
+35,Male,0,37.7,Yes,No,Rarely,Once-daily,"Weight_loss, Excessive_thirst",High
+69,Female,1,15,No,No,Never,Once-daily,Fatigue,Moderate
+47,Male,0,29.2,No,No,Rarely,Few-weekly,Frequent_urination,Moderate
+56,Female,0,40.9,No,Yes,Never,Rarely-never,"Excessive_thirst, Blurry_vision, Weight_loss, Fatigue, Frequent_urination",High
+24,Female,1,19.8,Yes,Yes,Rarely,Once-daily,"Excessive_thirst, Frequent_urination",High
+31,Female,5,22.3,No,Yes,Rarely,Every-meal,"Excessive_thirst, Blurry_vision, Frequent_urination, Fatigue",High
+40,Female,0,16,Yes,No,Never,Once-daily,"Blurry_vision, Frequent_urination, Weight_loss",High
+35,Male,0,30.4,No,No,Never,Once-daily,Excessive_thirst,High
+30,Female,2,24.2,No,Yes,Never,Few-weekly,"Fatigue, Excessive_thirst, Blurry_vision",High
+24,Male,0,44.1,Yes,No,Never,Every-meal,"Excessive_thirst, Frequent_urination, Weight_loss, Fatigue, Blurry_vision",High
+21,Female,3,44,Yes,No,Never,Every-meal,"Excessive_thirst, Weight_loss, Frequent_urination, Fatigue, Blurry_vision",High
+80,Male,0,29.4,Yes,No,Never,Few-weekly,"Frequent_urination, Blurry_vision, Excessive_thirst, Fatigue, Weight_loss",High
+33,Female,5,22.4,No,Yes,Never,Rarely-never,"Excessive_thirst, Weight_loss",High
+51,Female,4,24.5,Yes,No,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision, Fatigue",High
+70,Female,1,24.1,No,Yes,Never,Few-weekly,"Excessive_thirst, Blurry_vision, Weight_loss, Frequent_urination, Fatigue",High
+55,Female,1,27.8,No,No,Rarely,Few-weekly,"Frequent_urination, Fatigue, Weight_loss, Blurry_vision",High
+29,Male,0,48.7,No,Yes,Rarely,Every-meal,Weight_loss,High
+71,Male,0,19.7,Yes,No,Never,Once-daily,Excessive_thirst,High
+23,Female,5,20.6,No,Yes,Rarely,Rarely-never,Blurry_vision,High
+27,Male,0,21.8,No,Yes,Never,Rarely-never,Weight_loss,High
+26,Female,4,25.1,Yes,Yes,Never,Few-weekly,None,High
+71,Male,0,24.2,No,Yes,Never,Rarely-never,None,High
+57,Female,0,18.6,Yes,No,Never,Rarely-never,"Fatigue, Excessive_thirst",High
+64,Female,0,26.3,Yes,No,Rarely,Every-meal,"Weight_loss, Excessive_thirst",High
+43,Male,0,20,No,Yes,Never,Few-weekly,"Frequent_urination, Weight_loss, Excessive_thirst, Fatigue",High
+74,Female,0,23.9,Yes,Yes,Rarely,Rarely-never,"Weight_loss, Excessive_thirst, Frequent_urination, Fatigue, Blurry_vision",High
+30,Male,0,20.8,No,Yes,Rarely,Every-meal,Weight_loss,High
+54,Male,0,23.1,Yes,Yes,Never,Once-daily,None,High
+59,Male,0,29.6,Yes,Yes,Never,Every-meal,Excessive_thirst,High
+62,Female,3,18.6,No,No,Rarely,Rarely-never,"Fatigue, Weight_loss, Blurry_vision",High
+68,Female,1,27.3,No,No,Rarely,Rarely-never,"Excessive_thirst, Blurry_vision, Frequent_urination",High
+18,Female,2,38,No,No,Never,Once-daily,"Blurry_vision, Excessive_thirst, Weight_loss, Frequent_urination",High
+59,Male,0,18.6,Yes,No,Rarely,Few-weekly,None,High
+44,Female,3,32.4,No,No,Rarely,Every-meal,"Blurry_vision, Fatigue, Excessive_thirst",High
+60,Female,4,29.3,Yes,No,Rarely,Rarely-never,Frequent_urination,High
+28,Male,0,25.6,No,No,Never,Few-weekly,None,Moderate
+47,Male,0,31.3,Yes,Yes,Rarely,Rarely-never,"Fatigue, Weight_loss, Frequent_urination",High
+57,Male,0,30.1,Yes,Yes,Never,Rarely-never,None,High
+50,Female,5,24.6,Yes,Yes,Never,Rarely-never,"Frequent_urination, Fatigue, Blurry_vision, Excessive_thirst, Weight_loss",High
+63,Female,5,13,No,Yes,Rarely,Every-meal,Excessive_thirst,High
+75,Male,0,32.5,No,Yes,Never,Rarely-never,"Frequent_urination, Weight_loss, Excessive_thirst, Blurry_vision",High
+66,Male,0,18.7,Yes,No,Rarely,Every-meal,"Weight_loss, Excessive_thirst, Fatigue, Blurry_vision, Frequent_urination",High
+53,Female,3,17.3,No,No,Rarely,Few-weekly,None,Low
+71,Female,5,51.1,Yes,Yes,Never,Few-weekly,"Fatigue, Blurry_vision",High
+28,Female,1,33.4,No,No,Rarely,Every-meal,"Weight_loss, Frequent_urination",High
+39,Female,2,33.2,No,Yes,Never,Once-daily,None,High
+23,Female,2,15.8,No,Yes,Never,Every-meal,"Weight_loss, Blurry_vision, Fatigue, Excessive_thirst",High
+45,Female,3,19.2,No,Yes,Rarely,Rarely-never,"Fatigue, Frequent_urination, Blurry_vision, Excessive_thirst",High
+67,Female,4,27.9,Yes,No,Rarely,Once-daily,"Frequent_urination, Weight_loss",High
+44,Female,2,32.9,No,Yes,Never,Few-weekly,"Fatigue, Excessive_thirst",High
+75,Female,0,31.7,Yes,No,Rarely,Once-daily,"Fatigue, Excessive_thirst",High
+29,Male,0,54.2,No,Yes,Never,Once-daily,"Weight_loss, Excessive_thirst, Frequent_urination",High
+70,Male,0,46.3,No,No,Never,Once-daily,Weight_loss,High
+69,Male,0,24.1,No,No,Rarely,Every-meal,"Excessive_thirst, Blurry_vision, Fatigue, Frequent_urination",High
+51,Female,2,37.3,No,No,Rarely,Few-weekly,"Weight_loss, Excessive_thirst, Blurry_vision, Frequent_urination, Fatigue",High
+70,Male,0,33.3,Yes,Yes,Never,Every-meal,None,High
+58,Male,0,22.3,Yes,No,Rarely,Rarely-never,"Excessive_thirst, Blurry_vision, Weight_loss, Fatigue",High
+33,Male,0,36,No,No,Rarely,Every-meal,Blurry_vision,High
+78,Female,0,31.5,No,Yes,Never,Few-weekly,None,High
+65,Male,0,29.4,No,No,Never,Once-daily,"Fatigue, Weight_loss, Blurry_vision, Frequent_urination, Excessive_thirst",High
+44,Female,4,46.8,Yes,Yes,Never,Few-weekly,None,High
+31,Female,5,34.3,Yes,No,Never,Rarely-never,"Blurry_vision, Excessive_thirst",High
+76,Male,0,35.2,No,No,Never,Every-meal,"Blurry_vision, Weight_loss, Frequent_urination, Fatigue, Excessive_thirst",High
+77,Female,0,31.2,No,Yes,Rarely,Few-weekly,"Excessive_thirst, Weight_loss, Frequent_urination, Fatigue, Blurry_vision",High
+31,Female,5,24.8,No,No,Rarely,Once-daily,Frequent_urination,Moderate
+19,Female,0,39.5,Yes,Yes,Rarely,Once-daily,"Weight_loss, Fatigue, Blurry_vision",High
+48,Male,0,19.9,Yes,Yes,Never,Few-weekly,"Weight_loss, Frequent_urination, Excessive_thirst, Fatigue",High
+78,Male,0,36.8,Yes,Yes,Rarely,Every-meal,"Weight_loss, Excessive_thirst, Frequent_urination, Fatigue",High
+31,Male,0,23.2,No,Yes,Never,Few-weekly,"Weight_loss, Fatigue, Blurry_vision",High
+41,Female,1,36.5,No,Yes,Never,Once-daily,"Frequent_urination, Weight_loss, Excessive_thirst, Fatigue, Blurry_vision",High
+38,Male,0,16.9,No,No,Never,Once-daily,"Fatigue, Excessive_thirst",Moderate
+45,Female,5,35.1,Yes,No,Rarely,Every-meal,"Blurry_vision, Fatigue, Excessive_thirst, Frequent_urination",High
+77,Male,0,26.8,No,No,Never,Every-meal,None,Moderate
+63,Male,0,20.5,Yes,No,Never,Once-daily,"Blurry_vision, Weight_loss",High
+76,Female,2,27.4,No,Yes,Never,Few-weekly,"Excessive_thirst, Weight_loss, Frequent_urination, Blurry_vision, Fatigue",High
+73,Male,0,48,No,No,Never,Every-meal,"Frequent_urination, Fatigue",High
+63,Male,0,38.2,Yes,No,Rarely,Every-meal,"Frequent_urination, Fatigue, Excessive_thirst, Weight_loss",High
+51,Female,3,57.8,Yes,Yes,Rarely,Rarely-never,"Frequent_urination, Excessive_thirst, Weight_loss, Blurry_vision, Fatigue",High
+59,Female,2,25.9,Yes,No,Never,Every-meal,"Blurry_vision, Frequent_urination, Weight_loss, Excessive_thirst",High
+41,Male,0,18.4,No,No,Never,Every-meal,Frequent_urination,Moderate
+37,Male,0,43.2,Yes,Yes,Rarely,Once-daily,"Fatigue, Weight_loss, Blurry_vision",High
+64,Male,0,15.7,Yes,No,Rarely,Once-daily,"Blurry_vision, Weight_loss, Fatigue",High
+37,Male,0,32.9,No,No,Never,Few-weekly,"Weight_loss, Fatigue, Blurry_vision, Frequent_urination, Excessive_thirst",High
+34,Female,3,59.5,No,No,Never,Once-daily,"Frequent_urination, Excessive_thirst, Weight_loss, Fatigue",High
+73,Female,3,52.3,Yes,Yes,Rarely,Few-weekly,None,High
+74,Female,4,19.9,Yes,No,Never,Once-daily,"Frequent_urination, Weight_loss, Excessive_thirst, Fatigue, Blurry_vision",High
+63,Female,2,14.7,No,Yes,Rarely,Once-daily,Fatigue,High
+38,Male,0,26.1,No,Yes,Never,Every-meal,"Fatigue, Blurry_vision",High
+21,Male,0,43.5,No,No,Never,Rarely-never,"Weight_loss, Excessive_thirst, Frequent_urination, Blurry_vision, Fatigue",High
+18,Female,0,22.6,No,Yes,Rarely,Every-meal,"Fatigue, Weight_loss, Excessive_thirst, Frequent_urination",High
+24,Male,0,54.6,Yes,No,Rarely,Every-meal,"Fatigue, Frequent_urination, Blurry_vision",High
+55,Female,0,14.7,Yes,No,Never,Rarely-never,None,High
+62,Female,0,48.5,No,Yes,Never,Once-daily,"Fatigue, Blurry_vision, Weight_loss, Excessive_thirst, Frequent_urination",High
+59,Male,0,27.8,No,No,Never,Once-daily,None,Moderate
+21,Female,2,37.3,No,No,Never,Rarely-never,"Frequent_urination, Weight_loss",High
+63,Male,0,28.9,No,Yes,Never,Once-daily,Frequent_urination,High
+50,Female,1,28.5,No,No,Rarely,Every-meal,"Fatigue, Excessive_thirst",Moderate
+69,Female,4,41.7,No,Yes,Rarely,Every-meal,None,High
+80,Male,0,18.8,Yes,Yes,Never,Rarely-never,"Excessive_thirst, Weight_loss, Frequent_urination, Blurry_vision, Fatigue",High
+57,Male,0,24.5,Yes,Yes,Rarely,Few-weekly,Weight_loss,High
+56,Male,0,55.5,No,Yes,Never,Every-meal,Excessive_thirst,High
+53,Male,0,28.9,Yes,No,Never,Every-meal,"Blurry_vision, Weight_loss, Frequent_urination, Excessive_thirst, Fatigue",High
+31,Male,0,22.6,No,No,Never,Few-weekly,"Blurry_vision, Frequent_urination",Moderate
+38,Female,5,33,No,No,Rarely,Every-meal,"Frequent_urination, Blurry_vision",High
+80,Male,0,56.4,Yes,No,Rarely,Once-daily,None,High
+32,Female,0,52.1,No,No,Rarely,Once-daily,Excessive_thirst,High
+44,Female,5,19.5,No,Yes,Never,Rarely-never,"Weight_loss, Fatigue, Excessive_thirst, Frequent_urination, Blurry_vision",High
+71,Male,0,40.6,No,No,Rarely,Every-meal,"Weight_loss, Fatigue",High
+20,Male,0,16.8,No,Yes,Never,Few-weekly,"Weight_loss, Blurry_vision, Frequent_urination, Excessive_thirst, Fatigue",High
+18,Female,3,35.4,Yes,No,Never,Once-daily,None,High
+62,Female,3,41.4,Yes,Yes,Rarely,Few-weekly,"Weight_loss, Fatigue, Blurry_vision",High
+65,Female,1,26.8,No,Yes,Never,Once-daily,"Weight_loss, Frequent_urination, Fatigue, Blurry_vision, Excessive_thirst",High
+53,Female,5,26,No,Yes,Rarely,Rarely-never,"Weight_loss, Blurry_vision, Excessive_thirst",High
+33,Male,0,39,No,No,Never,Once-daily,"Blurry_vision, Fatigue, Weight_loss, Frequent_urination, Excessive_thirst",High
+28,Female,4,32.2,Yes,No,Never,Few-weekly,"Weight_loss, Excessive_thirst",High
+32,Female,2,32.4,Yes,Yes,Rarely,Every-meal,Excessive_thirst,High
+64,Female,3,30.8,Yes,No,Rarely,Rarely-never,None,High
+59,Female,4,27.7,Yes,No,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Fatigue",High
+80,Female,4,13.4,Yes,Yes,Rarely,Once-daily,"Fatigue, Weight_loss, Blurry_vision",High
+22,Male,0,21.7,No,No,Never,Once-daily,Frequent_urination,Moderate
+51,Female,2,33.6,Yes,Yes,Rarely,Few-weekly,Weight_loss,High
+42,Female,4,13,No,Yes,Rarely,Few-weekly,"Blurry_vision, Excessive_thirst, Weight_loss, Frequent_urination, Fatigue",High
+57,Male,2,23.5,No,Yes,Weekly,Few-weekly,Fatigue,Moderate
+28,Female,4,32.2,No,Yes,Weekly,Rarely-never,Fatigue,High
+51,Male,5,28.3,Yes,Yes,Never,Every-meal,"Excessive_thirst, Fatigue",Moderate
+54,Male,0,26,Yes,No,Never,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+77,Male,4,16.5,Yes,Yes,Daily,Every-meal,"Fatigue, Frequent_urination",Moderate
+70,Female,1,30,Yes,No,Weekly,Every-meal,None,Moderate
+54,Female,0,35.3,No,Yes,Weekly,Rarely-never,"Blurry_vision, Weight_loss",High
+24,Male,3,20.8,Yes,No,Daily,Every-meal,"Excessive_thirst, Weight_loss",Low
+61,Male,5,30.2,No,Yes,Weekly,Every-meal,Fatigue,Moderate
+51,Female,1,35.2,Yes,Yes,Never,Rarely-never,"Blurry_vision, Weight_loss",High
+25,Female,0,29.2,Yes,No,Daily,Every-meal,"Excessive_thirst, Fatigue",Moderate
+74,Male,5,51.6,Yes,Yes,Weekly,Few-weekly,"Excessive_thirst, Weight_loss",High
+54,Male,1,24.9,Yes,Yes,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+40,Male,0,22.6,No,Yes,Rarely,Few-weekly,Blurry_vision,Moderate
+65,Male,0,24.3,No,Yes,Weekly,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+37,Male,5,34.3,No,No,Weekly,Every-meal,"Fatigue, Frequent_urination",High
+55,Female,4,26.4,Yes,Yes,Rarely,Every-meal,Excessive_thirst,Moderate
+63,Male,4,44.9,Yes,Yes,Rarely,Few-weekly,Weight_loss,High
+44,Female,1,23.6,Yes,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+70,Male,0,17.2,No,Yes,Rarely,Every-meal,None,Moderate
+43,Female,5,26.7,No,No,Weekly,Few-weekly,Frequent_urination,Moderate
+40,Male,4,30.4,Yes,No,Never,Rarely-never,Weight_loss,Moderate
+56,Male,4,18.9,No,No,Daily,Every-meal,None,Moderate
+21,Male,2,21.5,No,No,Rarely,Few-weekly,Fatigue,Low
+50,Female,0,47.5,Yes,No,Daily,Few-weekly,Fatigue,High
+75,Female,3,14,No,Yes,Rarely,Every-meal,"Excessive_thirst, Fatigue",Moderate
+57,Female,2,32.3,Yes,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",Moderate
+58,Male,5,27.5,No,Yes,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+78,Female,1,23.1,No,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+54,Male,3,26.8,Yes,No,Daily,Every-meal,Excessive_thirst,Moderate
+58,Female,5,15.1,Yes,Yes,Rarely,Few-weekly,Fatigue,Moderate
+64,Female,5,33.3,Yes,Yes,Weekly,Rarely-never,Excessive_thirst,Moderate
+72,Male,0,25.1,Yes,No,Rarely,Every-meal,Fatigue,Moderate
+22,Male,2,42.1,No,No,Never,Every-meal,"Excessive_thirst, Fatigue",High
+71,Male,5,19.9,No,Yes,Weekly,Every-meal,None,Moderate
+55,Male,3,18,No,No,Never,Rarely-never,Excessive_thirst,Moderate
+73,Female,4,44,No,No,Rarely,Rarely-never,Excessive_thirst,High
+18,Male,1,13,Yes,No,Weekly,Rarely-never,"Excessive_thirst, Fatigue",Low
+39,Male,2,41.5,No,No,Daily,Rarely-never,Frequent_urination,High
+54,Male,4,33.2,Yes,No,Daily,Few-weekly,None,Moderate
+50,Male,3,34.7,No,No,Weekly,Rarely-never,Blurry_vision,Moderate
+50,Male,1,33.8,No,No,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+76,Female,2,17.6,Yes,Yes,Never,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+65,Male,4,31.6,No,Yes,Weekly,Few-weekly,Excessive_thirst,Moderate
+32,Male,4,38.2,Yes,Yes,Never,Rarely-never,"Excessive_thirst, Weight_loss",High
+47,Female,3,22.8,No,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+42,Male,5,24.7,Yes,Yes,Never,Few-weekly,None,Moderate
+18,Male,1,39.6,No,Yes,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",High
+71,Male,3,18.5,No,No,Daily,Rarely-never,Blurry_vision,Moderate
+59,Female,1,16.9,Yes,Yes,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+78,Female,5,33.5,Yes,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+53,Male,1,22.5,Yes,Yes,Daily,Rarely-never,None,Moderate
+65,Female,2,18.6,Yes,Yes,Rarely,Rarely-never,Weight_loss,Moderate
+75,Female,5,31.2,Yes,Yes,Never,Every-meal,"Blurry_vision, Weight_loss",Moderate
+68,Male,5,18.9,No,No,Rarely,Few-weekly,Fatigue,Moderate
+67,Female,0,21.3,Yes,No,Never,Few-weekly,Fatigue,Moderate
+63,Female,4,20.6,Yes,Yes,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+72,Female,3,45.1,Yes,No,Rarely,Every-meal,Weight_loss,High
+51,Male,1,23.8,No,Yes,Never,Few-weekly,Frequent_urination,Moderate
+24,Male,5,28.4,No,Yes,Rarely,Rarely-never,Blurry_vision,Moderate
+70,Female,3,24.2,No,Yes,Never,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+74,Male,1,44.9,No,No,Never,Rarely-never,Blurry_vision,High
+34,Male,5,36.7,Yes,Yes,Daily,Rarely-never,Fatigue,High
+56,Female,0,31,No,No,Rarely,Few-weekly,Blurry_vision,Moderate
+52,Male,1,34.1,No,No,Rarely,Few-weekly,None,Moderate
+80,Male,1,28.3,Yes,No,Never,Rarely-never,Blurry_vision,Moderate
+41,Female,3,23.4,No,No,Rarely,Rarely-never,None,Moderate
+65,Male,5,26.4,No,No,Weekly,Every-meal,"Excessive_thirst, Fatigue",Moderate
+70,Female,0,25.3,Yes,No,Daily,Every-meal,Weight_loss,Moderate
+43,Male,4,36.2,Yes,No,Rarely,Rarely-never,None,High
+57,Female,3,21.5,No,Yes,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+76,Male,3,56,No,Yes,Never,Few-weekly,"Fatigue, Frequent_urination",High
+18,Female,5,38.3,No,Yes,Rarely,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",High
+63,Male,5,26.6,No,Yes,Never,Every-meal,"Blurry_vision, Weight_loss",Moderate
+38,Male,0,57.9,No,No,Never,Few-weekly,"Fatigue, Frequent_urination",High
+44,Female,0,33.7,No,Yes,Weekly,Every-meal,Blurry_vision,Moderate
+44,Male,1,22.6,Yes,Yes,Rarely,Every-meal,Weight_loss,Moderate
+22,Male,2,13.7,No,No,Never,Every-meal,Blurry_vision,Low
+72,Male,5,54.4,No,No,Never,Few-weekly,Excessive_thirst,High
+23,Female,0,49.3,No,Yes,Weekly,Every-meal,None,High
+64,Male,1,33.9,Yes,Yes,Daily,Rarely-never,Blurry_vision,Moderate
+40,Female,4,27.4,Yes,Yes,Rarely,Rarely-never,Weight_loss,Moderate
+62,Male,1,24,No,No,Never,Few-weekly,Weight_loss,Moderate
+59,Male,0,27.6,Yes,Yes,Weekly,Few-weekly,Blurry_vision,Moderate
+80,Male,2,37.1,Yes,No,Rarely,Few-weekly,Fatigue,High
+77,Female,5,33.7,No,Yes,Never,Every-meal,"Blurry_vision, Weight_loss",Moderate
+29,Male,5,47.7,No,Yes,Weekly,Every-meal,Frequent_urination,High
+26,Male,5,28.3,No,No,Daily,Every-meal,Blurry_vision,Moderate
+27,Female,3,17.9,No,Yes,Weekly,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Low
+77,Male,4,20.2,No,Yes,Never,Few-weekly,Weight_loss,Moderate
+19,Male,0,18.5,No,No,Rarely,Every-meal,"Fatigue, Frequent_urination",Low
+57,Female,5,26.5,No,No,Weekly,Every-meal,Blurry_vision,Moderate
+65,Male,3,34.7,Yes,No,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+55,Male,1,23.2,No,Yes,Daily,Rarely-never,Blurry_vision,Moderate
+19,Female,2,14.4,No,No,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Low
+42,Female,1,27.8,Yes,Yes,Never,Few-weekly,Excessive_thirst,Moderate
+51,Male,2,60.7,No,Yes,Rarely,Rarely-never,"Excessive_thirst, Weight_loss",High
+74,Female,0,38.4,No,No,Never,Rarely-never,"Excessive_thirst, Fatigue",High
+52,Male,4,21.6,Yes,No,Daily,Few-weekly,Weight_loss,Moderate
+57,Female,0,23.4,No,No,Daily,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+61,Female,0,45,No,No,Rarely,Rarely-never,Frequent_urination,High
+23,Male,2,32.9,Yes,No,Daily,Few-weekly,"Excessive_thirst, Weight_loss",High
+22,Male,4,23.1,No,No,Rarely,Rarely-never,"Fatigue, Frequent_urination",Low
+48,Female,5,43.3,Yes,No,Rarely,Rarely-never,Fatigue,High
+31,Female,2,27.5,Yes,Yes,Weekly,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+43,Female,2,19.9,Yes,Yes,Never,Every-meal,"Excessive_thirst, Fatigue",Moderate
+73,Male,3,26.1,Yes,Yes,Never,Every-meal,"Blurry_vision, Weight_loss",Moderate
+68,Female,1,34.7,Yes,Yes,Weekly,Every-meal,Excessive_thirst,Moderate
+44,Female,4,15.1,Yes,No,Daily,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+60,Female,3,40.3,Yes,Yes,Daily,Few-weekly,Excessive_thirst,High
+28,Female,1,14.6,No,Yes,Weekly,Every-meal,Frequent_urination,Low
+28,Male,2,18.3,Yes,Yes,Weekly,Few-weekly,Blurry_vision,Low
+35,Male,3,33.7,Yes,No,Weekly,Rarely-never,Blurry_vision,High
+44,Male,1,31.3,Yes,Yes,Rarely,Every-meal,"Fatigue, Frequent_urination",Moderate
+72,Female,0,39.7,No,No,Daily,Few-weekly,Fatigue,High
+73,Female,4,32.1,No,Yes,Weekly,Rarely-never,None,Moderate
+35,Male,2,28.3,No,No,Daily,Every-meal,Blurry_vision,Moderate
+36,Female,0,24.7,Yes,Yes,Never,Few-weekly,Fatigue,Low
+54,Male,1,32.8,Yes,Yes,Weekly,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+68,Female,3,33.1,Yes,No,Weekly,Rarely-never,Excessive_thirst,Moderate
+38,Male,3,34.6,Yes,No,Daily,Every-meal,Fatigue,High
+59,Female,3,15.5,Yes,Yes,Rarely,Rarely-never,Weight_loss,Moderate
+42,Male,5,22.7,Yes,Yes,Daily,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+61,Female,2,25.6,No,Yes,Daily,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+79,Female,3,23.8,Yes,No,Rarely,Every-meal,Blurry_vision,Moderate
+43,Female,0,45.3,No,Yes,Weekly,Every-meal,Fatigue,High
+26,Male,1,13.7,No,No,Daily,Every-meal,None,Low
+74,Female,2,14.5,No,No,Daily,Rarely-never,Fatigue,Moderate
+79,Male,5,36.8,Yes,No,Never,Rarely-never,Frequent_urination,High
+61,Male,0,29.1,Yes,Yes,Rarely,Every-meal,"Excessive_thirst, Fatigue",Moderate
+20,Male,2,35.2,Yes,Yes,Never,Rarely-never,"Excessive_thirst, Weight_loss",High
+35,Male,5,33.5,Yes,Yes,Weekly,Every-meal,Frequent_urination,High
+72,Male,3,36.7,Yes,Yes,Rarely,Every-meal,Blurry_vision,High
+21,Female,1,24.5,Yes,No,Daily,Every-meal,Excessive_thirst,Low
+35,Female,2,24.3,No,No,Rarely,Every-meal,"Fatigue, Frequent_urination",Low
+44,Female,3,12.9,No,Yes,Never,Rarely-never,"Fatigue, Frequent_urination",Moderate
+52,Male,2,57.9,No,Yes,Weekly,Every-meal,None,High
+60,Male,2,24,No,No,Rarely,Every-meal,"Excessive_thirst, Fatigue",Moderate
+28,Female,0,32.5,No,No,Never,Few-weekly,Excessive_thirst,High
+52,Male,4,25.7,Yes,No,Daily,Every-meal,Fatigue,Moderate
+59,Male,3,39.1,No,No,Never,Rarely-never,"Fatigue, Frequent_urination",High
+61,Female,2,43.6,No,No,Weekly,Few-weekly,Blurry_vision,High
+50,Male,2,27.1,Yes,No,Daily,Every-meal,Weight_loss,Moderate
+24,Female,0,37.6,No,Yes,Weekly,Few-weekly,Excessive_thirst,High
+44,Female,2,25.7,Yes,Yes,Rarely,Every-meal,Blurry_vision,Moderate
+75,Female,1,33.7,Yes,Yes,Daily,Few-weekly,"Fatigue, Frequent_urination",Moderate
+23,Female,0,31.4,Yes,Yes,Weekly,Rarely-never,"Blurry_vision, Weight_loss",High
+22,Female,4,33.4,No,Yes,Never,Few-weekly,"Excessive_thirst, Weight_loss",High
+46,Female,2,17.8,No,No,Weekly,Few-weekly,Weight_loss,Moderate
+42,Male,1,52.7,Yes,No,Rarely,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",High
+40,Male,4,42.1,No,Yes,Daily,Every-meal,Frequent_urination,High
+47,Male,1,31,Yes,No,Daily,Few-weekly,Fatigue,Moderate
+42,Male,2,33.2,Yes,Yes,Weekly,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+77,Female,1,26.6,Yes,Yes,Never,Every-meal,Fatigue,Moderate
+24,Female,0,40.5,No,No,Weekly,Few-weekly,"Excessive_thirst, Weight_loss",High
+76,Female,0,25.5,Yes,Yes,Daily,Few-weekly,Blurry_vision,Moderate
+34,Female,2,27,No,No,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+66,Male,5,35.9,No,No,Rarely,Rarely-never,Fatigue,High
+26,Female,5,31,Yes,No,Rarely,Rarely-never,"Blurry_vision, Weight_loss",High
+18,Male,2,19.1,Yes,No,Rarely,Every-meal,Fatigue,Low
+66,Female,0,21.3,No,Yes,Daily,Every-meal,Weight_loss,Moderate
+55,Male,5,18.5,Yes,No,Rarely,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+48,Female,4,40.3,Yes,Yes,Never,Rarely-never,Weight_loss,High
+77,Male,0,32.4,No,Yes,Rarely,Few-weekly,"Fatigue, Frequent_urination",Moderate
+65,Male,3,34.6,No,No,Never,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+55,Male,2,47.2,No,No,Daily,Rarely-never,"Fatigue, Frequent_urination",High
+25,Female,2,35.4,No,Yes,Never,Rarely-never,"Blurry_vision, Weight_loss",High
+44,Male,0,53.7,Yes,No,Weekly,Every-meal,Fatigue,High
+42,Female,4,24.9,Yes,No,Daily,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+48,Male,5,26.7,Yes,No,Weekly,Rarely-never,Blurry_vision,Moderate
+49,Male,0,21.7,No,Yes,Weekly,Every-meal,None,Moderate
+41,Female,5,34.7,No,No,Never,Few-weekly,Frequent_urination,Moderate
+65,Male,3,27.4,No,Yes,Daily,Every-meal,"Fatigue, Frequent_urination",Moderate
+24,Male,3,48.6,No,Yes,Never,Few-weekly,Blurry_vision,High
+41,Male,3,49.5,No,No,Weekly,Few-weekly,"Fatigue, Frequent_urination",High
+37,Female,4,45,No,No,Weekly,Rarely-never,Fatigue,High
+76,Female,5,28.1,Yes,No,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+63,Female,4,22.5,Yes,Yes,Weekly,Rarely-never,Weight_loss,Moderate
+65,Female,2,52,No,No,Rarely,Rarely-never,Excessive_thirst,High
+47,Male,1,40.9,No,Yes,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+64,Male,2,34,Yes,Yes,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+42,Female,2,18.8,No,No,Daily,Few-weekly,Fatigue,Moderate
+27,Male,0,43.4,No,Yes,Weekly,Rarely-never,Fatigue,High
+33,Male,3,20.7,No,No,Weekly,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Low
+79,Male,0,26.1,Yes,Yes,Never,Every-meal,None,Moderate
+76,Male,2,29.3,Yes,Yes,Rarely,Every-meal,Excessive_thirst,Moderate
+70,Male,1,17.7,Yes,Yes,Daily,Every-meal,Weight_loss,Moderate
+24,Male,5,24.9,Yes,Yes,Rarely,Rarely-never,Fatigue,Low
+78,Male,2,18.6,No,No,Never,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+38,Female,1,39.4,No,Yes,Daily,Every-meal,Fatigue,High
+27,Male,2,21,Yes,No,Weekly,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Low
+58,Male,3,34.8,Yes,Yes,Weekly,Every-meal,Weight_loss,Moderate
+43,Male,0,37,Yes,No,Never,Every-meal,Blurry_vision,High
+62,Female,4,40.2,No,No,Weekly,Rarely-never,Excessive_thirst,High
+77,Female,0,30.5,No,No,Weekly,Few-weekly,Weight_loss,Moderate
+80,Female,5,36.2,No,Yes,Daily,Every-meal,Fatigue,High
+29,Male,3,23.7,No,Yes,Rarely,Rarely-never,Frequent_urination,Low
+47,Male,4,21.6,Yes,Yes,Daily,Few-weekly,"Fatigue, Frequent_urination",Moderate
+23,Male,0,20.1,No,No,Daily,Rarely-never,None,Low
+55,Male,3,20.9,No,No,Rarely,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+25,Male,4,35.1,Yes,Yes,Weekly,Rarely-never,None,High
+18,Female,0,20.5,Yes,Yes,Weekly,Few-weekly,Blurry_vision,Low
+27,Female,3,23.7,Yes,Yes,Daily,Rarely-never,Weight_loss,Low
+20,Female,1,20.2,No,Yes,Weekly,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Low
+22,Male,5,23.5,No,No,Daily,Rarely-never,Frequent_urination,Low
+50,Male,5,14.2,No,Yes,Weekly,Rarely-never,Frequent_urination,Moderate
+37,Female,3,19.2,No,No,Rarely,Few-weekly,Fatigue,Low
+18,Female,0,23.4,Yes,No,Weekly,Rarely-never,None,Low
+30,Female,5,47.6,Yes,No,Weekly,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+65,Male,0,23.6,Yes,No,Weekly,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+18,Female,4,22.9,Yes,No,Daily,Rarely-never,"Excessive_thirst, Fatigue",Low
+18,Male,1,30.3,Yes,Yes,Weekly,Rarely-never,Blurry_vision,High
+42,Female,5,25.5,Yes,Yes,Weekly,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+64,Male,5,21.5,No,No,Never,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+53,Male,2,30.5,No,No,Rarely,Rarely-never,Fatigue,Moderate
+26,Female,0,23.6,No,Yes,Weekly,Every-meal,None,Low
+25,Male,4,15.9,No,Yes,Never,Every-meal,None,Low
+52,Female,0,44,Yes,Yes,Never,Few-weekly,Fatigue,High
+49,Male,4,26,No,No,Rarely,Every-meal,Fatigue,Moderate
+56,Male,3,19.5,No,No,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+73,Male,5,38.5,No,No,Rarely,Rarely-never,Excessive_thirst,High
+21,Male,2,31.9,Yes,Yes,Weekly,Few-weekly,Fatigue,High
+57,Male,1,22.3,No,No,Weekly,Every-meal,Excessive_thirst,Moderate
+62,Female,1,24.1,Yes,No,Rarely,Every-meal,"Blurry_vision, Weight_loss",Moderate
+66,Male,0,23.6,No,No,Daily,Few-weekly,Blurry_vision,Moderate
+40,Female,2,37.7,No,Yes,Rarely,Rarely-never,Frequent_urination,High
+46,Female,3,15.8,Yes,No,Weekly,Few-weekly,None,Moderate
+24,Female,2,37.2,Yes,No,Weekly,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+69,Male,3,51.5,Yes,Yes,Daily,Every-meal,Blurry_vision,High
+44,Male,2,26.1,Yes,No,Daily,Few-weekly,Fatigue,Moderate
+19,Female,5,15.8,Yes,No,Weekly,Every-meal,Excessive_thirst,Low
+20,Male,4,17.8,No,No,Weekly,Few-weekly,"Excessive_thirst, Weight_loss",Low
+48,Female,2,17.8,Yes,No,Rarely,Rarely-never,Frequent_urination,Moderate
+19,Male,3,32.2,No,Yes,Rarely,Rarely-never,Fatigue,High
+41,Male,4,23.8,Yes,No,Never,Every-meal,Weight_loss,Moderate
+35,Female,0,21.9,Yes,No,Weekly,Few-weekly,"Blurry_vision, Weight_loss",Low
+57,Male,5,35.6,No,Yes,Weekly,Rarely-never,Weight_loss,High
+23,Male,2,28.4,No,Yes,Daily,Every-meal,"Blurry_vision, Weight_loss",Moderate
+35,Male,3,34.1,Yes,No,Weekly,Rarely-never,None,High
+68,Male,5,35.7,Yes,No,Weekly,Rarely-never,Excessive_thirst,High
+31,Female,4,34.7,No,No,Daily,Rarely-never,Frequent_urination,High
+43,Male,5,31.3,No,No,Rarely,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+25,Female,1,31,No,No,Rarely,Rarely-never,"Excessive_thirst, Weight_loss",High
+64,Male,5,20.4,Yes,No,Daily,Few-weekly,Frequent_urination,Moderate
+79,Male,1,33.6,Yes,Yes,Never,Every-meal,Weight_loss,Moderate
+48,Male,3,30.9,Yes,No,Weekly,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+38,Female,1,31.5,No,Yes,Weekly,Rarely-never,Fatigue,High
+32,Male,1,18.7,No,No,Weekly,Every-meal,Blurry_vision,Low
+68,Male,1,22,Yes,Yes,Weekly,Every-meal,"Excessive_thirst, Fatigue",Moderate
+56,Male,3,17.2,No,No,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+58,Female,4,24.4,No,Yes,Never,Few-weekly,Frequent_urination,Moderate
+30,Male,1,27.8,No,No,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+44,Male,0,20.5,No,No,Rarely,Every-meal,"Fatigue, Frequent_urination",Moderate
+18,Male,1,43.3,No,No,Never,Rarely-never,"Fatigue, Frequent_urination",High
+56,Male,1,41.7,No,Yes,Daily,Few-weekly,"Fatigue, Frequent_urination",High
+19,Female,5,33.2,Yes,No,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",High
+42,Male,5,36,Yes,No,Rarely,Few-weekly,"Excessive_thirst, Weight_loss",High
+76,Male,3,35.1,Yes,No,Never,Every-meal,Fatigue,High
+73,Female,1,32.5,Yes,Yes,Rarely,Every-meal,Frequent_urination,Moderate
+19,Female,1,26,No,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+18,Female,4,32.3,Yes,No,Never,Few-weekly,"Excessive_thirst, Weight_loss",High
+76,Female,5,29,Yes,Yes,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+56,Female,2,37,Yes,Yes,Weekly,Rarely-never,Fatigue,High
+75,Male,0,22.9,Yes,No,Daily,Few-weekly,None,Moderate
+34,Female,2,50.9,No,Yes,Rarely,Few-weekly,Blurry_vision,High
+31,Male,1,27.2,No,No,Rarely,Few-weekly,Fatigue,Moderate
+79,Male,4,29.7,No,Yes,Never,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+60,Female,4,19.8,No,No,Rarely,Rarely-never,Blurry_vision,Moderate
+41,Female,4,25.4,No,No,Daily,Few-weekly,"Fatigue, Frequent_urination",Moderate
+46,Male,5,14.3,Yes,No,Weekly,Rarely-never,None,Moderate
+43,Female,4,40.9,Yes,No,Never,Rarely-never,Fatigue,High
+18,Female,0,40.3,Yes,Yes,Daily,Few-weekly,None,High
+64,Female,1,16.3,Yes,Yes,Never,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+22,Male,4,23.4,Yes,Yes,Daily,Every-meal,Weight_loss,Low
+52,Female,3,30.8,Yes,Yes,Daily,Every-meal,"Excessive_thirst, Fatigue",Moderate
+53,Female,1,44.1,No,Yes,Never,Every-meal,Blurry_vision,High
+72,Male,1,35.1,No,No,Weekly,Few-weekly,"Excessive_thirst, Weight_loss",High
+40,Male,3,26.4,No,No,Daily,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+25,Female,2,44.1,No,No,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",High
+72,Male,3,26.9,Yes,No,Daily,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+65,Male,3,22.8,No,Yes,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+32,Male,0,25.6,No,No,Rarely,Few-weekly,"Fatigue, Frequent_urination",Moderate
+43,Male,5,34.5,Yes,Yes,Daily,Every-meal,Weight_loss,Moderate
+22,Female,1,35.5,No,No,Never,Every-meal,Fatigue,High
+32,Female,1,37.5,No,Yes,Rarely,Few-weekly,"Excessive_thirst, Weight_loss",High
+23,Male,1,48.7,No,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",High
+70,Male,3,17.1,No,No,Never,Rarely-never,Weight_loss,Moderate
+68,Male,4,56.8,No,No,Weekly,Every-meal,"Excessive_thirst, Fatigue",High
+59,Male,5,56.3,No,No,Rarely,Every-meal,Excessive_thirst,High
+18,Female,0,22.1,No,Yes,Weekly,Every-meal,Excessive_thirst,Low
+57,Female,0,18.6,No,Yes,Daily,Rarely-never,"Fatigue, Frequent_urination",Moderate
+43,Male,2,29,Yes,Yes,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+79,Male,3,42.8,Yes,No,Daily,Few-weekly,Excessive_thirst,High
+34,Female,4,24.8,Yes,No,Daily,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Low
+37,Female,4,26.2,No,Yes,Rarely,Every-meal,"Blurry_vision, Weight_loss",Moderate
+34,Female,2,33.1,Yes,No,Daily,Few-weekly,"Fatigue, Frequent_urination",High
+36,Male,1,24.9,No,Yes,Weekly,Every-meal,None,Low
+19,Female,4,57.5,Yes,Yes,Weekly,Rarely-never,"Excessive_thirst, Fatigue",High
+29,Male,0,20.6,No,No,Weekly,Rarely-never,"Excessive_thirst, Fatigue",Low
+45,Male,5,17.6,Yes,No,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+27,Male,4,31.8,Yes,No,Never,Every-meal,"Excessive_thirst, Weight_loss",High
+41,Female,2,21.2,No,Yes,Never,Few-weekly,"Fatigue, Frequent_urination",Moderate
+51,Female,0,14.8,Yes,Yes,Rarely,Rarely-never,None,Moderate
+60,Male,4,24.6,No,No,Never,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+30,Male,1,25.8,Yes,Yes,Rarely,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+48,Male,3,14.9,No,No,Rarely,Every-meal,"Fatigue, Frequent_urination",Moderate
+35,Male,3,38,No,Yes,Never,Rarely-never,Fatigue,High
+29,Male,4,29.2,Yes,No,Weekly,Few-weekly,Excessive_thirst,Moderate
+44,Male,3,23.5,No,No,Weekly,Rarely-never,None,Moderate
+57,Female,1,33.7,No,Yes,Weekly,Every-meal,Excessive_thirst,Moderate
+80,Female,0,46.7,No,No,Never,Rarely-never,None,High
+45,Male,2,23.8,Yes,Yes,Rarely,Few-weekly,Blurry_vision,Moderate
+80,Female,3,48.9,No,No,Rarely,Every-meal,Frequent_urination,High
+43,Female,2,40.8,Yes,No,Weekly,Few-weekly,Excessive_thirst,High
+30,Male,3,48,Yes,Yes,Daily,Every-meal,Blurry_vision,High
+48,Male,4,25.1,No,No,Rarely,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+21,Female,3,18.9,Yes,Yes,Daily,Few-weekly,"Excessive_thirst, Weight_loss",Low
+32,Female,4,43.3,Yes,No,Rarely,Few-weekly,None,High
+64,Male,1,22.7,Yes,No,Never,Few-weekly,Excessive_thirst,Moderate
+45,Female,5,25.1,Yes,Yes,Weekly,Every-meal,None,Moderate
+74,Male,5,45.3,No,Yes,Rarely,Every-meal,"Blurry_vision, Weight_loss",High
+32,Male,0,32.4,Yes,No,Never,Few-weekly,"Excessive_thirst, Fatigue",High
+49,Male,4,22.7,No,No,Daily,Every-meal,"Fatigue, Frequent_urination",Moderate
+55,Female,2,44.4,Yes,Yes,Weekly,Rarely-never,Weight_loss,High
+43,Male,0,40.9,Yes,No,Daily,Rarely-never,"Excessive_thirst, Fatigue",High
+62,Male,1,18.3,No,No,Daily,Every-meal,None,Moderate
+57,Male,2,37.2,No,Yes,Rarely,Rarely-never,Fatigue,High
+42,Male,5,37.6,Yes,Yes,Never,Every-meal,"Excessive_thirst, Weight_loss",High
+29,Female,2,23.8,No,No,Never,Every-meal,Fatigue,Low
+61,Female,2,34.6,Yes,No,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+27,Female,5,31.5,Yes,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",High
+19,Male,2,28,Yes,Yes,Weekly,Every-meal,"Blurry_vision, Weight_loss",Moderate
+35,Female,4,25.1,Yes,Yes,Never,Few-weekly,Weight_loss,Moderate
+64,Female,2,34.6,Yes,No,Weekly,Every-meal,Weight_loss,Moderate
+55,Female,4,20.3,Yes,No,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+55,Male,0,30.5,No,Yes,Never,Rarely-never,Blurry_vision,Moderate
+36,Female,1,26.3,Yes,No,Never,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+23,Female,2,17.4,No,No,Rarely,Few-weekly,None,Low
+67,Male,4,45.9,Yes,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",High
+80,Female,3,31.2,Yes,Yes,Weekly,Rarely-never,None,Moderate
+60,Female,0,20.6,Yes,No,Daily,Few-weekly,Fatigue,Moderate
+76,Male,2,43.3,Yes,Yes,Weekly,Rarely-never,"Excessive_thirst, Fatigue",High
+25,Male,2,20.9,No,No,Rarely,Rarely-never,Blurry_vision,Low
+49,Female,4,24.2,No,No,Rarely,Every-meal,Weight_loss,Moderate
+45,Male,1,36,Yes,No,Rarely,Few-weekly,"Excessive_thirst, Fatigue",High
+21,Male,4,17.5,Yes,Yes,Rarely,Rarely-never,Frequent_urination,Low
+41,Female,0,51.6,No,Yes,Daily,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+46,Female,5,47.7,Yes,Yes,Rarely,Few-weekly,"Fatigue, Frequent_urination",High
+62,Male,5,55.3,Yes,No,Never,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+32,Female,2,55.7,Yes,Yes,Never,Every-meal,"Blurry_vision, Weight_loss",High
+72,Female,2,30.4,No,Yes,Rarely,Every-meal,None,Moderate
+25,Male,5,30.7,Yes,No,Rarely,Few-weekly,Weight_loss,High
+54,Male,0,26.5,No,No,Weekly,Rarely-never,Weight_loss,Moderate
+40,Female,2,33.6,Yes,No,Weekly,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+71,Male,1,24,Yes,Yes,Weekly,Few-weekly,Frequent_urination,Moderate
+19,Male,4,29.9,Yes,No,Weekly,Few-weekly,Weight_loss,Moderate
+31,Female,1,38.9,Yes,No,Rarely,Rarely-never,"Excessive_thirst, Fatigue",High
+63,Male,0,46.7,No,No,Daily,Rarely-never,None,High
+55,Female,4,31.2,No,No,Rarely,Every-meal,Frequent_urination,Moderate
+64,Female,2,23.1,Yes,Yes,Never,Few-weekly,Frequent_urination,Moderate
+74,Female,0,30.8,No,Yes,Daily,Rarely-never,Frequent_urination,Moderate
+20,Male,2,36.1,Yes,Yes,Rarely,Few-weekly,Weight_loss,High
+56,Female,4,44.4,Yes,Yes,Rarely,Few-weekly,None,High
+67,Female,2,30.8,No,Yes,Rarely,Few-weekly,"Excessive_thirst, Weight_loss",Moderate
+60,Male,0,29.8,Yes,Yes,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+53,Male,4,42.7,Yes,Yes,Weekly,Rarely-never,Excessive_thirst,High
+45,Male,0,38.1,Yes,Yes,Daily,Few-weekly,Frequent_urination,High
+64,Male,3,15,No,No,Never,Every-meal,Excessive_thirst,Moderate
+65,Male,2,14.3,No,Yes,Never,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+63,Female,5,30.2,No,Yes,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+24,Female,5,24.6,No,Yes,Weekly,Few-weekly,Excessive_thirst,Low
+50,Male,4,15.3,Yes,Yes,Rarely,Every-meal,Blurry_vision,Moderate
+48,Male,4,38.9,No,No,Weekly,Few-weekly,"Fatigue, Frequent_urination",High
+77,Female,1,32.3,Yes,Yes,Never,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+45,Female,2,40.8,No,No,Rarely,Every-meal,Weight_loss,High
+24,Female,0,20.4,No,No,Never,Rarely-never,Excessive_thirst,Low
+57,Female,0,42.5,Yes,Yes,Rarely,Few-weekly,"Blurry_vision, Weight_loss",High
+45,Male,5,21.9,Yes,Yes,Weekly,Every-meal,"Excessive_thirst, Fatigue",Moderate
+39,Female,0,30.3,Yes,No,Never,Few-weekly,Fatigue,High
+19,Male,2,21.9,No,No,Weekly,Few-weekly,"Excessive_thirst, Fatigue",Low
+80,Male,1,23,No,No,Daily,Few-weekly,"Excessive_thirst, Weight_loss",Moderate
+71,Female,3,35.9,No,Yes,Daily,Rarely-never,Excessive_thirst,High
+23,Male,2,18.7,Yes,Yes,Rarely,Few-weekly,"Fatigue, Frequent_urination",Low
+39,Female,3,26.4,No,Yes,Rarely,Every-meal,None,Moderate
+45,Female,2,32.8,No,No,Daily,Rarely-never,Excessive_thirst,Moderate
+34,Female,4,25.1,Yes,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+77,Male,2,29.2,No,Yes,Daily,Rarely-never,None,Moderate
+79,Female,3,26.9,Yes,Yes,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+38,Male,1,38.4,Yes,No,Weekly,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+18,Male,2,36.4,Yes,Yes,Never,Every-meal,"Excessive_thirst, Weight_loss",High
+22,Female,3,26,Yes,Yes,Weekly,Every-meal,Weight_loss,Moderate
+42,Male,2,32.2,No,Yes,Daily,Few-weekly,Weight_loss,Moderate
+73,Male,5,26.6,Yes,No,Daily,Every-meal,Excessive_thirst,Moderate
+73,Male,3,36.7,Yes,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",High
+46,Male,3,19.7,No,Yes,Rarely,Rarely-never,Fatigue,Moderate
+73,Female,2,34.7,Yes,No,Weekly,Few-weekly,Fatigue,Moderate
+18,Female,0,25.4,Yes,No,Weekly,Every-meal,Weight_loss,Moderate
+78,Female,0,21.3,No,Yes,Weekly,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+39,Male,4,32.2,No,No,Daily,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+50,Male,4,15,No,No,Weekly,Rarely-never,Frequent_urination,Moderate
+23,Male,4,41.7,No,No,Daily,Few-weekly,"Fatigue, Frequent_urination",High
+72,Male,0,33.2,Yes,Yes,Rarely,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+61,Male,5,20.4,Yes,Yes,Weekly,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+25,Male,2,36.1,No,No,Rarely,Rarely-never,"Excessive_thirst, Weight_loss",High
+72,Female,4,26.7,Yes,Yes,Daily,Few-weekly,Weight_loss,Moderate
+52,Female,5,29.7,No,No,Daily,Every-meal,Frequent_urination,Moderate
+40,Male,0,20.7,Yes,No,Weekly,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+24,Male,5,28.9,Yes,No,Daily,Rarely-never,Excessive_thirst,Moderate
+45,Male,1,19,No,Yes,Never,Rarely-never,Frequent_urination,Moderate
+21,Male,5,41.8,No,Yes,Daily,Few-weekly,Weight_loss,High
+53,Female,4,49.8,No,No,Never,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+30,Female,4,26.1,Yes,Yes,Weekly,Few-weekly,None,Moderate
+68,Female,4,21.7,No,No,Never,Every-meal,Fatigue,Moderate
+47,Male,1,44.6,Yes,Yes,Rarely,Few-weekly,"Blurry_vision, Weight_loss",High
+20,Male,2,21.9,Yes,No,Rarely,Every-meal,Weight_loss,Low
+78,Female,0,52.9,No,Yes,Never,Every-meal,Weight_loss,High
+63,Female,4,31.1,No,No,Weekly,Every-meal,Excessive_thirst,Moderate
+26,Male,5,39.4,No,No,Rarely,Few-weekly,Frequent_urination,High
+26,Male,4,21,Yes,Yes,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Low
+73,Male,4,21.9,No,Yes,Rarely,Few-weekly,Blurry_vision,Moderate
+19,Male,5,31.9,No,No,Never,Few-weekly,"Blurry_vision, Weight_loss",High
+75,Male,4,23.1,No,No,Weekly,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+25,Female,5,30.8,Yes,No,Rarely,Rarely-never,Fatigue,High
+72,Male,2,25,No,No,Never,Few-weekly,Fatigue,Moderate
+47,Male,4,45,No,No,Daily,Few-weekly,Frequent_urination,High
+32,Female,4,32.4,No,No,Never,Few-weekly,None,High
+75,Male,1,28.2,Yes,No,Never,Every-meal,Blurry_vision,Moderate
+25,Male,2,35.2,Yes,Yes,Rarely,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+64,Male,2,18.4,No,No,Weekly,Every-meal,Fatigue,Moderate
+58,Female,3,31.4,Yes,No,Rarely,Every-meal,None,Moderate
+48,Male,1,40.2,No,No,Rarely,Few-weekly,Blurry_vision,High
+24,Female,1,20.7,Yes,Yes,Weekly,Every-meal,"Excessive_thirst, Weight_loss",Low
+65,Female,1,35.7,No,Yes,Weekly,Rarely-never,Weight_loss,High
+39,Male,0,45.5,No,Yes,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",High
+47,Female,4,15.8,No,Yes,Weekly,Few-weekly,"Excessive_thirst, Weight_loss",Moderate
+64,Female,4,57.3,No,Yes,Weekly,Few-weekly,Frequent_urination,High
+27,Male,0,33.3,No,No,Rarely,Few-weekly,"Blurry_vision, Weight_loss",High
+37,Female,1,37.6,Yes,Yes,Rarely,Every-meal,"Fatigue, Frequent_urination",High
+37,Male,4,26,No,Yes,Rarely,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+70,Male,2,42.5,No,Yes,Weekly,Rarely-never,"Blurry_vision, Weight_loss",High
+27,Male,5,40.6,No,No,Never,Every-meal,Fatigue,High
+24,Female,0,26.7,No,Yes,Rarely,Few-weekly,Excessive_thirst,Moderate
+80,Female,1,41.8,No,Yes,Daily,Every-meal,"Fatigue, Frequent_urination",High
+47,Male,0,44.2,No,Yes,Daily,Every-meal,"Blurry_vision, Weight_loss",High
+43,Male,3,50.3,No,Yes,Weekly,Few-weekly,"Excessive_thirst, Weight_loss",High
+35,Female,5,48.3,Yes,Yes,Weekly,Few-weekly,Excessive_thirst,High
+39,Female,2,16.5,Yes,Yes,Rarely,Every-meal,"Blurry_vision, Weight_loss",Low
+79,Female,0,59.4,Yes,Yes,Weekly,Rarely-never,Blurry_vision,High
+60,Female,5,14.2,No,No,Daily,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+66,Male,1,17.4,No,No,Never,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+46,Female,5,41,No,Yes,Daily,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+54,Male,2,20.8,Yes,No,Never,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+51,Female,2,38.4,Yes,No,Never,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+65,Female,2,40.1,Yes,No,Weekly,Few-weekly,None,High
+38,Male,4,36.8,Yes,No,Weekly,Few-weekly,Frequent_urination,High
+23,Male,2,27.2,Yes,Yes,Weekly,Few-weekly,None,Moderate
+23,Female,3,17.7,No,Yes,Daily,Every-meal,None,Low
+46,Female,5,17,No,No,Never,Few-weekly,"Fatigue, Frequent_urination",Moderate
+70,Female,1,21.9,Yes,Yes,Weekly,Few-weekly,"Fatigue, Frequent_urination",Moderate
+33,Female,4,19.4,No,No,Rarely,Rarely-never,Excessive_thirst,Low
+21,Female,4,22.2,No,Yes,Daily,Few-weekly,"Blurry_vision, Weight_loss",Low
+71,Male,2,33.6,Yes,No,Rarely,Few-weekly,Weight_loss,Moderate
+60,Male,2,27.7,Yes,Yes,Never,Every-meal,None,Moderate
+75,Male,4,30.4,Yes,No,Rarely,Rarely-never,Weight_loss,Moderate
+44,Male,0,15.6,Yes,No,Never,Every-meal,None,Moderate
+79,Female,5,28.7,Yes,No,Never,Few-weekly,Fatigue,Moderate
+26,Male,0,32.7,No,Yes,Never,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+43,Female,4,24.5,Yes,Yes,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+80,Female,1,37.7,No,Yes,Daily,Few-weekly,"Fatigue, Frequent_urination",High
+64,Male,2,33,Yes,No,Rarely,Every-meal,Frequent_urination,Moderate
+58,Female,5,45.4,No,No,Daily,Few-weekly,"Excessive_thirst, Fatigue",High
+38,Female,0,34.2,No,No,Never,Every-meal,Frequent_urination,High
+46,Female,1,16.1,Yes,Yes,Rarely,Rarely-never,Excessive_thirst,Moderate
+55,Female,1,49.3,No,No,Never,Few-weekly,Frequent_urination,High
+57,Female,4,31.2,No,No,Never,Rarely-never,Blurry_vision,Moderate
+46,Male,4,27.9,No,Yes,Weekly,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+27,Male,0,35.8,No,No,Daily,Rarely-never,Weight_loss,High
+50,Female,2,34.2,No,No,Weekly,Every-meal,None,Moderate
+58,Female,3,21.9,Yes,No,Daily,Every-meal,"Excessive_thirst, Fatigue",Moderate
+40,Female,4,13.6,Yes,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",Moderate
+53,Female,3,29.7,Yes,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+78,Male,1,13.6,No,Yes,Never,Every-meal,Excessive_thirst,Moderate
+39,Female,5,22.1,Yes,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",Low
+24,Female,1,40.7,Yes,No,Never,Rarely-never,Blurry_vision,High
+53,Male,4,29.4,No,Yes,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+47,Female,2,25.2,Yes,Yes,Rarely,Few-weekly,None,Moderate
+70,Male,4,16,No,No,Weekly,Few-weekly,Excessive_thirst,Moderate
+57,Female,0,25.1,Yes,Yes,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+25,Female,0,31.4,Yes,Yes,Rarely,Every-meal,Fatigue,High
+40,Female,4,29.9,No,No,Rarely,Every-meal,Fatigue,Moderate
+29,Female,2,20.8,No,No,Rarely,Rarely-never,Excessive_thirst,Low
+62,Female,5,41.6,Yes,Yes,Rarely,Few-weekly,Frequent_urination,High
+28,Male,0,23.5,No,Yes,Rarely,Every-meal,Excessive_thirst,Low
+30,Male,1,23.2,Yes,No,Daily,Every-meal,Frequent_urination,Low
+19,Female,3,33.8,Yes,Yes,Weekly,Every-meal,None,High
+43,Male,1,30.8,Yes,No,Weekly,Few-weekly,"Fatigue, Frequent_urination",Moderate
+31,Male,0,33.8,Yes,Yes,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",High
+59,Male,4,35.4,Yes,No,Weekly,Rarely-never,"Blurry_vision, Weight_loss",High
+32,Female,0,34,No,No,Weekly,Rarely-never,Excessive_thirst,High
+25,Male,0,34.4,No,No,Never,Every-meal,Blurry_vision,High
+63,Female,1,25.1,Yes,Yes,Rarely,Few-weekly,"Fatigue, Frequent_urination",Moderate
+36,Male,4,28.8,No,Yes,Daily,Rarely-never,Weight_loss,Moderate
+61,Male,3,15,Yes,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",Moderate
+51,Male,0,41.9,Yes,Yes,Never,Every-meal,"Excessive_thirst, Weight_loss",High
+27,Female,3,25.6,Yes,Yes,Rarely,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+23,Male,1,49.8,No,No,Rarely,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",High
+24,Male,4,29.4,No,Yes,Never,Every-meal,"Fatigue, Frequent_urination",Moderate
+52,Male,3,41.5,Yes,No,Weekly,Rarely-never,Frequent_urination,High
+68,Female,5,43,Yes,No,Weekly,Rarely-never,Blurry_vision,High
+45,Male,0,15.8,Yes,No,Daily,Few-weekly,"Excessive_thirst, Weight_loss",Moderate
+67,Male,4,42.5,No,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",High
+26,Female,4,25.4,No,Yes,Daily,Rarely-never,None,Moderate
+46,Female,3,23.5,Yes,No,Rarely,Rarely-never,Excessive_thirst,Moderate
+28,Male,0,54.7,No,No,Never,Few-weekly,"Blurry_vision, Weight_loss",High
+33,Male,5,20.5,Yes,No,Daily,Every-meal,"Excessive_thirst, Weight_loss",Low
+56,Female,5,32.1,No,No,Never,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+48,Male,5,40,Yes,No,Never,Every-meal,"Fatigue, Frequent_urination",High
+32,Female,5,19.6,Yes,Yes,Weekly,Few-weekly,Frequent_urination,Low
+50,Male,0,24.8,Yes,Yes,Daily,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+59,Male,5,33.6,Yes,Yes,Rarely,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+32,Male,2,21.6,No,No,Never,Rarely-never,"Excessive_thirst, Fatigue",Low
+67,Male,3,34,Yes,Yes,Weekly,Few-weekly,Weight_loss,Moderate
+72,Male,4,33.6,Yes,Yes,Daily,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+78,Male,3,26.7,No,Yes,Weekly,Rarely-never,Blurry_vision,Moderate
+60,Female,0,32.2,No,Yes,Rarely,Few-weekly,"Excessive_thirst, Weight_loss",Moderate
+21,Male,0,55.5,No,No,Never,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+27,Male,3,27.7,No,Yes,Weekly,Every-meal,Weight_loss,Moderate
+77,Female,4,29.4,No,No,Daily,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+56,Male,5,30.1,Yes,Yes,Rarely,Few-weekly,"Fatigue, Frequent_urination",Moderate
+78,Male,3,18.2,Yes,No,Never,Rarely-never,Fatigue,Moderate
+48,Female,0,39,Yes,Yes,Weekly,Few-weekly,Weight_loss,High
+69,Male,4,22.2,No,No,Rarely,Few-weekly,"Excessive_thirst, Weight_loss",Moderate
+37,Male,0,15.3,Yes,Yes,Rarely,Rarely-never,Fatigue,Low
+25,Female,1,20.8,No,No,Daily,Every-meal,Frequent_urination,Low
+39,Female,0,33.3,Yes,Yes,Rarely,Rarely-never,Blurry_vision,High
+40,Male,4,44.6,No,Yes,Weekly,Few-weekly,Fatigue,High
+47,Female,4,19.5,No,Yes,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+61,Female,5,30.7,No,Yes,Rarely,Rarely-never,Frequent_urination,Moderate
+40,Female,3,20.1,No,Yes,Never,Every-meal,"Fatigue, Frequent_urination",Moderate
+63,Female,3,31.8,No,No,Daily,Rarely-never,Excessive_thirst,Moderate
+47,Male,3,20,Yes,No,Daily,Few-weekly,Weight_loss,Moderate
+30,Female,1,17.1,No,No,Rarely,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Low
+70,Male,1,47.3,Yes,No,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",High
+40,Female,3,22.4,Yes,Yes,Daily,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+31,Female,0,29.7,No,Yes,Never,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+45,Female,2,21.7,No,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",Moderate
+65,Male,0,42.8,Yes,No,Weekly,Few-weekly,None,High
+23,Female,5,22.6,Yes,Yes,Never,Rarely-never,"Excessive_thirst, Fatigue",Low
+73,Female,5,32.8,Yes,Yes,Daily,Rarely-never,Frequent_urination,Moderate
+52,Male,1,22.9,No,Yes,Daily,Few-weekly,Weight_loss,Moderate
+74,Female,2,26.9,Yes,Yes,Never,Few-weekly,Frequent_urination,Moderate
+76,Female,0,52.6,Yes,Yes,Weekly,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+27,Male,5,21.6,No,Yes,Never,Rarely-never,Frequent_urination,Low
+62,Female,5,43.7,No,No,Weekly,Rarely-never,Blurry_vision,High
+35,Male,5,52.9,Yes,Yes,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+64,Female,0,29.4,Yes,Yes,Rarely,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+43,Male,5,56.4,No,Yes,Rarely,Few-weekly,None,High
+31,Female,0,37.5,No,No,Weekly,Every-meal,Blurry_vision,High
+19,Male,1,25.4,No,Yes,Rarely,Every-meal,Frequent_urination,Moderate
+62,Female,3,36.2,Yes,Yes,Weekly,Every-meal,None,High
+63,Female,4,22.8,No,No,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+20,Female,0,20,Yes,No,Daily,Rarely-never,"Fatigue, Frequent_urination",Low
+47,Female,4,23.3,Yes,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",Moderate
+56,Male,2,13.9,Yes,No,Daily,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+40,Female,1,42.5,Yes,Yes,Daily,Every-meal,"Blurry_vision, Weight_loss",High
+52,Female,1,20,Yes,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Moderate
+55,Female,5,40.2,No,Yes,Never,Every-meal,"Fatigue, Frequent_urination",High
+64,Male,4,15.5,No,Yes,Rarely,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+80,Female,2,28.7,No,No,Never,Few-weekly,Excessive_thirst,Moderate
+36,Female,5,38.9,Yes,No,Rarely,Every-meal,"Blurry_vision, Weight_loss",High
+43,Female,2,40.1,No,Yes,Daily,Every-meal,Excessive_thirst,High
+76,Female,0,40.4,No,No,Never,Few-weekly,Frequent_urination,High
+23,Female,4,21.6,No,Yes,Weekly,Few-weekly,Blurry_vision,Low
+65,Male,2,51.9,Yes,No,Weekly,Rarely-never,None,High
+71,Female,5,38,No,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",High
+18,Female,3,21.1,No,No,Daily,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Low
+44,Female,5,28.7,Yes,Yes,Weekly,Rarely-never,Frequent_urination,Moderate
+70,Female,1,22.3,Yes,No,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+69,Male,0,37.3,Yes,Yes,Rarely,Few-weekly,Frequent_urination,High
+43,Female,4,23.8,No,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",Moderate
+62,Female,2,42.1,No,Yes,Rarely,Few-weekly,Excessive_thirst,High
+36,Female,1,42.8,Yes,Yes,Weekly,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+41,Female,1,30.7,No,Yes,Weekly,Every-meal,"Excessive_thirst, Fatigue",Moderate
+35,Male,2,39.3,Yes,No,Rarely,Few-weekly,"Fatigue, Frequent_urination",High
+34,Female,1,55.3,No,No,Never,Every-meal,"Blurry_vision, Weight_loss",High
+33,Male,2,44.3,Yes,No,Daily,Every-meal,Excessive_thirst,High
+46,Male,5,42.7,Yes,Yes,Daily,Few-weekly,"Blurry_vision, Weight_loss",High
+77,Female,5,30.5,Yes,No,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+65,Male,1,23,No,Yes,Weekly,Few-weekly,"Fatigue, Frequent_urination",Moderate
+65,Male,4,16.9,No,Yes,Weekly,Every-meal,"Blurry_vision, Weight_loss",Moderate
+60,Female,2,35.5,No,Yes,Rarely,Rarely-never,Weight_loss,High
+22,Female,2,17.6,Yes,Yes,Daily,Every-meal,Excessive_thirst,Low
+66,Male,1,23.9,No,No,Never,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+34,Male,2,34.5,Yes,Yes,Never,Rarely-never,"Blurry_vision, Weight_loss",High
+79,Male,3,28.5,Yes,No,Never,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+80,Male,4,30.8,Yes,Yes,Weekly,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+64,Male,3,22.4,Yes,No,Never,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+45,Male,1,22.9,Yes,No,Daily,Few-weekly,Blurry_vision,Moderate
+72,Female,1,25.8,No,Yes,Weekly,Few-weekly,Blurry_vision,Moderate
+64,Male,0,35.2,Yes,No,Never,Every-meal,"Blurry_vision, Weight_loss",High
+70,Male,4,34.9,No,No,Rarely,Few-weekly,Weight_loss,Moderate
+42,Male,1,27.2,No,No,Weekly,Every-meal,Fatigue,Moderate
+52,Female,0,23.9,No,No,Daily,Few-weekly,"Fatigue, Frequent_urination",Moderate
+24,Female,1,46.4,Yes,No,Daily,Rarely-never,Frequent_urination,High
+19,Female,2,40.9,Yes,No,Rarely,Rarely-never,"Excessive_thirst, Weight_loss",High
+64,Female,2,22,Yes,Yes,Rarely,Few-weekly,Blurry_vision,Moderate
+52,Male,0,14.7,Yes,Yes,Daily,Every-meal,Weight_loss,Moderate
+39,Male,4,24,Yes,No,Rarely,Every-meal,Weight_loss,Low
+54,Female,0,31.6,No,Yes,Rarely,Rarely-never,Weight_loss,Moderate
+53,Male,3,24.9,No,Yes,Never,Every-meal,Excessive_thirst,Moderate
+30,Female,1,29.7,No,No,Never,Every-meal,Weight_loss,Moderate
+40,Female,4,41,No,Yes,Daily,Every-meal,Weight_loss,High
+23,Female,3,27.2,No,No,Never,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+36,Female,4,22.7,No,Yes,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Low
+42,Male,3,36.5,Yes,Yes,Rarely,Few-weekly,Excessive_thirst,High
+25,Male,2,19.8,Yes,Yes,Rarely,Few-weekly,Frequent_urination,Low
+75,Female,4,21.7,Yes,Yes,Weekly,Rarely-never,"Excessive_thirst, Weight_loss",Moderate
+40,Female,3,36.6,No,Yes,Daily,Few-weekly,Frequent_urination,High
+45,Female,3,23.7,Yes,Yes,Never,Rarely-never,Blurry_vision,Moderate
+70,Female,4,37.7,Yes,Yes,Weekly,Every-meal,Excessive_thirst,High
+49,Female,1,19,Yes,Yes,Weekly,Rarely-never,Blurry_vision,Moderate
+39,Female,3,39,No,No,Daily,Every-meal,Blurry_vision,High
+41,Male,2,26.4,No,Yes,Daily,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+56,Male,0,34.5,No,No,Rarely,Every-meal,"Fatigue, Frequent_urination",Moderate
+21,Female,0,45,No,Yes,Daily,Few-weekly,Weight_loss,High
+38,Female,2,32.9,No,No,Rarely,Few-weekly,"Frequent_urination, Weight_loss, Blurry_vision",High
+31,Male,2,31.8,Yes,Yes,Rarely,Few-weekly,"Blurry_vision, Weight_loss",High
+44,Female,1,29,No,No,Weekly,Rarely-never,Blurry_vision,Moderate
+27,Female,2,20.7,No,Yes,Daily,Few-weekly,"Fatigue, Frequent_urination",Low
+77,Female,5,23.5,No,Yes,Daily,Every-meal,None,Moderate
+62,Male,4,38.3,Yes,No,Never,Few-weekly,Blurry_vision,High
+31,Male,3,36.8,No,Yes,Daily,Every-meal,Weight_loss,High
+29,Male,0,20.2,No,No,Rarely,Every-meal,None,Low
+41,Male,1,27.1,Yes,Yes,Rarely,Few-weekly,Weight_loss,Moderate
+48,Male,5,29.1,Yes,No,Weekly,Rarely-never,"Fatigue, Frequent_urination",Moderate
+28,Male,3,15,Yes,Yes,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Low
+43,Male,3,20.3,Yes,No,Daily,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+40,Female,1,22.3,Yes,Yes,Weekly,Rarely-never,None,Moderate
+35,Male,4,34.2,Yes,Yes,Weekly,Every-meal,Weight_loss,High
+33,Female,3,41.5,No,Yes,Weekly,Few-weekly,"Blurry_vision, Weight_loss",High
+49,Male,1,19.3,No,Yes,Rarely,Rarely-never,"Blurry_vision, Weight_loss",Moderate
+64,Female,4,35.5,No,Yes,Daily,Few-weekly,Weight_loss,High
+67,Female,1,48.9,No,No,Never,Rarely-never,Fatigue,High
+69,Female,0,24.3,Yes,No,Daily,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+61,Male,0,32.9,Yes,No,Daily,Few-weekly,"Excessive_thirst, Fatigue",Moderate
+35,Female,0,27.5,Yes,No,Never,Rarely-never,Weight_loss,Moderate
+44,Male,5,36.2,Yes,No,Weekly,Few-weekly,"Excessive_thirst, Fatigue",High
+22,Male,2,21.4,No,Yes,Daily,Few-weekly,"Excessive_thirst, Weight_loss",Low
+38,Male,3,28.4,No,Yes,Rarely,Every-meal,"Excessive_thirst, Fatigue",Moderate
+62,Female,4,49.5,No,Yes,Daily,Rarely-never,"Excessive_thirst, Weight_loss",High
+40,Female,0,42.2,No,No,Daily,Every-meal,Excessive_thirst,High
+36,Female,5,47.2,Yes,Yes,Rarely,Rarely-never,Excessive_thirst,High
+51,Male,5,28.4,Yes,No,Never,Rarely-never,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+33,Male,4,19,No,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",Low
+38,Female,4,34.5,Yes,No,Never,Few-weekly,Blurry_vision,High
+25,Male,3,32.9,No,Yes,Never,Every-meal,Excessive_thirst,High
+37,Male,1,19.6,Yes,Yes,Daily,Few-weekly,None,Low
+44,Male,0,40.6,No,No,Daily,Few-weekly,Weight_loss,High
+28,Male,2,28.8,No,Yes,Weekly,Rarely-never,Blurry_vision,Moderate
+62,Female,4,31.2,Yes,Yes,Daily,Every-meal,"Excessive_thirst, Weight_loss",Moderate
+79,Male,5,29.1,No,Yes,Daily,Every-meal,"Excessive_thirst, Fatigue",Moderate
+34,Female,0,22.8,Yes,Yes,Never,Every-meal,Weight_loss,Low
+24,Male,2,29.3,Yes,No,Weekly,Few-weekly,Excessive_thirst,Moderate
+80,Male,2,23.7,Yes,No,Never,Every-meal,"Excessive_thirst, Fatigue",Moderate
+34,Female,0,48.7,Yes,No,Never,Rarely-never,"Fatigue, Frequent_urination",High
+39,Male,5,45.4,No,No,Rarely,Rarely-never,"Excessive_thirst, Fatigue",High
+25,Female,0,43.5,Yes,Yes,Weekly,Few-weekly,Frequent_urination,High
+61,Male,5,45,Yes,No,Never,Few-weekly,Frequent_urination,High
+59,Male,0,28.1,No,No,Rarely,Every-meal,"Blurry_vision, Weight_loss",Moderate
+71,Female,3,56.8,No,No,Daily,Every-meal,Fatigue,High
+28,Male,1,32,Yes,Yes,Daily,Rarely-never,Blurry_vision,High
+35,Female,5,24.1,No,No,Daily,Few-weekly,"Blurry_vision, Weight_loss",Low
+32,Male,1,31.2,No,Yes,Never,Rarely-never,"Excessive_thirst, Weight_loss",High
+74,Male,4,19.9,No,No,Weekly,Rarely-never,Weight_loss,Moderate
+55,Male,1,29.3,No,No,Rarely,Few-weekly,None,Moderate
+69,Male,2,17.9,No,No,Weekly,Few-weekly,"Excessive_thirst, Weight_loss",Moderate
+49,Female,0,32.2,No,No,Weekly,Every-meal,Fatigue,Moderate
+24,Male,0,21.1,No,Yes,Daily,Few-weekly,"Excessive_thirst, Weight_loss",Low
+26,Female,4,22.6,No,No,Rarely,Rarely-never,Blurry_vision,Low
+78,Female,5,23.5,Yes,No,Never,Every-meal,Fatigue,Moderate
+65,Female,4,18.2,Yes,Yes,Rarely,Every-meal,None,Moderate
+40,Female,2,32,No,No,Daily,Few-weekly,Weight_loss,Moderate
+22,Female,2,38.3,No,No,Daily,Rarely-never,"Fatigue, Frequent_urination",High
+70,Male,2,23.6,Yes,No,Weekly,Rarely-never,Weight_loss,Moderate
+72,Female,2,42.9,No,No,Never,Rarely-never,Frequent_urination,High
+61,Female,1,27.5,No,Yes,Never,Every-meal,Blurry_vision,Moderate
+58,Female,0,23.1,No,No,Weekly,Few-weekly,Fatigue,Moderate
+37,Female,5,35.1,No,No,Never,Few-weekly,Fatigue,High
+20,Female,4,28.2,Yes,Yes,Rarely,Every-meal,"Excessive_thirst, Fatigue",Moderate
+27,Male,2,29.1,No,Yes,Never,Every-meal,Frequent_urination,Moderate
+73,Female,4,16.8,No,No,Never,Every-meal,Excessive_thirst,Moderate
+21,Female,1,15.2,Yes,No,Weekly,Every-meal,"Blurry_vision, Weight_loss",Low
+28,Male,4,20.7,No,Yes,Daily,Every-meal,Blurry_vision,Low
+68,Female,5,18.3,No,No,Daily,Rarely-never,Excessive_thirst,Moderate
+64,Female,4,30.1,Yes,No,Daily,Rarely-never,Frequent_urination,Moderate
+37,Male,2,26.7,Yes,No,Daily,Every-meal,"Frequent_urination, Weight_loss, Blurry_vision",Moderate
+73,Male,5,21.8,Yes,Yes,Weekly,Rarely-never,"Excessive_thirst, Fatigue",Moderate
+80,Male,2,34,No,Yes,Weekly,Rarely-never,"Fatigue, Frequent_urination",Moderate
+71,Female,1,38.3,Yes,Yes,Never,Rarely-never,Excessive_thirst,High
+58,Female,5,53.3,Yes,No,Weekly,Every-meal,None,High
