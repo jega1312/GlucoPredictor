@@ -185,7 +185,21 @@ Follow these steps to set up **GlucoPredictor** on your local machine:
 
     - These are used to run the AI-based prediction.
 
+## 📘 How to Use
 
+- Register an account and activate your account via email.
+  
+- Login using the registered email address and password.
+  
+- Evaluate your risk of diabetes by performing a diabetes risk assessment by filling the provided form with the neccesary details.
+  
+- Get your risk calculated upon valid form submission.
+  
+- Receive and view your personalized health tips based on your risk assessment form inputs and results.
+  
+- Check your risk assessment history for past risk scores and levels.
+
+- Monitor you glucose, weight, and insulin intakes by filling the add entry forms with the required details as well as clear each entry if desired.
 
 ## 🧑‍💻 Author
   Jegathiswaran Thiagu
