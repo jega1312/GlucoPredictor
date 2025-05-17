@@ -14,7 +14,7 @@ $mail = new PHPMailer(true);
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 
-$mail->Username = "your_email@gmail.com";       // Replace with your email
+$mail->Username = "your_email@example.com";       // Replace with your email
 $mail->Password = "your_app_password";          // Replace with your app password
 
 $mail->Host = 'smtp.gmail.com';
