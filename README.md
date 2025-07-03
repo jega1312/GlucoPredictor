@@ -203,7 +203,7 @@ Follow these steps to set up **GlucoPredictor** on your local machine:
 - Monitor you glucose, weight, and insulin intakes by filling the add entry forms with the required details as well as clear each entry if desired.
 
 ## 🧑‍💻 Author
-  ©️ Jegathiswaran Thiagu
+  ©️ Jegathiswaran Thiaghu
   
   GitHub: https://github.com/jega1312
 
