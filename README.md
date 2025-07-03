@@ -2,7 +2,7 @@
 
 **GlucoPredictor** is a web-based diabetes risk assessment and data entry system designed to help users evaluate and monitor their potential risk for diabetes. The system allows users to perform diabetes risk assessments, obtain risk assessments results, and track their glucose levels, insulin usage, and weight, while providing personalized rule and AI-based health tips using a trained XGBoost model and educational insights about diabetes.
 
-**Note:** Portions of this code were developed with assistance from AI tools (e.g., ChatGPT). All AI-generated content has been reviewed and adapted by the developer to ensure accuracy and suitability for the project.
+**Note:** Some portions of this code were developed with assistance from AI tools (e.g., ChatGPT). All AI-generated content has been reviewed and adapted by the developer to ensure accuracy and suitability for the project.
 
 ## 📷 Screenshots
 ![Login Page](assets/login.png)
